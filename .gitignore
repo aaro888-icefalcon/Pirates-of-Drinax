@@ -1,0 +1,8 @@
+# Python bytecode from the mythic-gm engine scripts
+__pycache__/
+*.py[cod]
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
