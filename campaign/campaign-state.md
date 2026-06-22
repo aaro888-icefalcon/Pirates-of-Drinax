@@ -3,9 +3,9 @@
 > SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~5–6 weeks post-launch; landed on Theev).
 
 ## Engine state (mythic-gm)
-- **Chaos Factor:** 3  *(↓ from 4 — the station chapter closed decisively in the PC's favour: clever monster-kill, rescue, rich salvage, the Theev gate won.)*
+- **Chaos Factor:** 2  *(↓ — the opener swept clean: Ferrik taken, the choice made, the bounty collected on the PC's terms. Crew fully in control.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves**, **CLIMAX: Ferrik captured alive.** The con worked (seizure 14 vs 10): posing as Miria's ride via the holo hull, the crew let Ferrik dock & board, then took him at gunpoint without a shot; the *Janal Torsk*'s crew folded under the Harrier's guns. **Ferrik Redthane is bound on the Harrier, alive.** Cornered, he played his last card — **Darokyn's secret:** Darokyn is NOT a renegade; he's still **Imperial Naval Intelligence's deep-cover agent** running Theev, and Ferrik has **proof (intercepted recordings) on a secure core aboard Darokyn's flagship**. Ferrik offers it **in exchange for his life**. **THE CHOICE (player to decide):** deliver Ferrik for the full bounty (MCr2.5 alive; Torpol/Clarke → Drinax; win Tashan's wager) — but a frozen Ferrik buries the proof-lead and Darokyn's "dead/silent" deal is moot/crossed; OR spare him for the secret/proof (leverage over Darokyn) at the cost of the bounty + freeing a pirate.
+- **Current adventure:** **01 — Honour Among Thieves — RESOLVED (pending the report to Oleb).** Player chose to **execute Ferrik** (deliver him dead → buries Darokyn's secret, honors Darokyn's "dead/silent" wish, full bounty unaffected). Released **Miria** per the deal (Cr50k + freedom + quiet drop; she never knew the secret). Turned loose the *Janal Torsk* crew; kept the body + Miria's testimony + the ship/logs as proof. Delivered the raider to **Torpol (Farx, MCr2)** and **Clarke (Psychopomps, MCr0.5)** **in King Oleb's name**. **Outcomes:** bounty **MCr2.5** collected; **Torpol & Clarke shift +2 toward Drinax** (Rao's scheme proven); **Darokyn's friendship kept** (his wish honored, secret buried — crew carry the knowledge, sitting on it); J-drive clean. **Next: return to Drinax**, report to Oleb, collect the political win + **win Tashan's wager** (proof delivered) → opener fully closes; Phase 2 (sandbox/empire-building) opens.
 - **Last scene recap:** Stun-capture of Miria went sideways (weak stun 4 < END 8) but the team subdued her by force (10 vs 10); disarmed her cyberarm's hidden suicide-bomb (a near-miss that vindicated the no-shooting capture). Pulled the *Mercifuge* nav logs on her codes (Sal 10) → Ferrik on Palindrome's 4th moon. Interrogated her (Reyna+Shake 15, Effect +5): she broke completely and offered to **bait Ferrik** into a trap for "the right consideration."
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
@@ -31,8 +31,8 @@
 - **Captain Edda Korr** — master of the free trader *Larkspur* out of Borite; rescued by the crew from the Star Ray. Grateful, friendly, a potential local contact/intel source in the Sindal backwater.
 - **Provost Martial Haddo Farx** — Torpol starport admin; young, ambitious, ingratiating, always a drink in hand. Wants the raid solved to make his career → drives the investigation forward; cooperative ally at Torpol. (Electronics/computers 3, Persuade 3, Admin 2.)
 - *(Darokyn — see his full entry below; secret now revealed.)*
-- **Ferrik Redthane** *(CAPTURED ALIVE — bound on the Harrier)* — wild young pirate; raided Clarke/Torpol as a résumé. Offers **Darokyn's secret + the proof's location in exchange for his life.** The MCr2.5 bounty subject.
-- **Miria Silverhand** *(CAPTURED & turned)* — Ferrik's ex-lieutenant; cyberarm (suicide-bomb disarmed). Broke under interrogation; pragmatic, loyalty was a business deal. **Will bait Ferrik into a trap** for the right price. Currently the crew's prisoner/asset.
+- **Ferrik Redthane** *(DEAD)* — executed by the crew; delivered frozen to Torpol/Clarke for the MCr2.5 bounty. His knowledge of Darokyn's secret died with him.
+- **Miria Silverhand** *(released)* — baited Ferrik, then freed per the deal (Cr50k, quiet drop). Out of the picture; never knew the secret. (Could resurface — she knows the crew's faces.)
 - **Admiral Darokyn** *(SECRET REVEALED — crew knowledge only)* — NOT a true renegade: still an **Imperial Naval Intelligence deep-cover agent** running Theev as the Imperium's Reach spy. Wants Ferrik dead/silent to bury it. **Proof (intercept recordings) sits on a secure core aboard his flagship** → blackmail/heist thread. Gave the crew Miria's location (conditional friendship — now in jeopardy if Ferrik lives/talks).
 - **Capt. Danel Vlaw** — paranoid Asiman trader (*Sarcomond*, Torpol); hates Drinax, warmed to Shake as a fellow Imperial. Minor goodwill contact.
 - **The Pirate Lords of Theev** — power players *(gated)*.
@@ -59,13 +59,13 @@
 - **CARGO: salvaged exotic Sindalian alloy (~5–6 SRU-equivalent)** — enough to **properly restore the hull to 88** at a yard (the fix TL11 couldn't do) + surplus (rebuild the ventral turret and/or sell — exotic alloy is near-priceless). Theev's Kallos Shipyards (TL15) could do the work.
 
 ## Finances & plunder
-- Cash: **~Cr285,000** (after the surplus-alloy windfall ~MCr0.5, the ~Cr75k hull fee, and ~Cr150k of defect repairs/turret at Kallos). **10% tithe to Oleb accrues on takings.** Bounty still the prize (Torpol MCr2 + Clarke MCr0.5).
+- Cash: **~Cr2.74M** (Cr285k + **MCr2.5 bounty** − Cr50k to Miria). **10% tithe to Oleb owed on takings** (paid at Drinax — ~Cr250k+ on the bounty, plus the alloy sale). Flush.
 - **Monthly costs:** Harrier maintenance ~Cr5,314/mo (doubled until repaired) + tithe on takings.
 - Cargo/loot: none.
 
 ## Empire / Reputation (full table: reputation-tracker.md)
 - Worlds recruited: 0 · Fighting Strength: 0.
-- Drinax = Haven (home). Theev = Friendly. Clarke = Neutral, Torpol = Suspicious (both raided by Ferrik — the opener's targets). **Borite = Suspicious (goodwill seed)** — crew killed the raider plaguing its granary run; Korr indebted, locals wary.
+- Drinax = Haven (home). Theev = Friendly (Darokyn's goodwill kept — his wish honored). **Clarke = Friendly (↑+2)**, **Torpol = Tolerant (↑+2)** — raider delivered in Oleb's name (Rao's scheme proven). Borite = Suspicious (goodwill seed).
 - Drinax court: Oleb favourable; Rao's scheme on trial; Lord Wrax opposed (his client Tashan publicly bested by Shake at dinner — minor face won for the privateer scheme, fresh grudge from the Wrax faction).
 
 ## Heat & sandbox clocks
@@ -75,9 +75,10 @@
 - **Rival pirates:** ▢▢▢▢▢
 
 ## Adventures
-- **In play:** 01 Honour Among Thieves — trail run Torpol → (Sarcomond) → Borite (station cleared, Krrsh rescued). **Next: Theev** (Blacksand City) → find Miria → Ferrik on Palindrome (0606).
-- **Completed:** none (opener in progress).
-- **Gate obtained:** Theev safe-landing code + a hidden refuelling dump ~1 parsec from Theev (Krrsh). Treasure seed: the lost Sindalian crown jewels (Borite painting).
+- **In play:** 01 Honour Among Thieves — **RESOLVED in the field** (Ferrik dead, bounty collected, Torpol/Clarke won). **Final step: report to King Oleb at Drinax** → fully closes the opener.
+- **Permanent bonus earned:** completing the opener → **DM+1 to ALL Finale recruitment rolls** (empire game).
+- **Completed:** (01 pending the Drinax report).
+- **Open threads/seeds:** Darokyn's secret (Imperial Intelligence — known to the crew, proof still on his flagship; dormant blackmail/heist hook); the lost Sindalian crown jewels (Borite painting); the Theev safe-code + fuel-dump (recurring access). **Phase 2 (raiding & empire-building sandbox) opens after the report.**
 
 ## Open canon questions answered in play
 - **Borite system has a skimmable gas giant** (Fate Q, Likely → Yes) — usable wilderness refuelling point in-system.

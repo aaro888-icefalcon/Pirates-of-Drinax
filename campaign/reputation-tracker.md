@@ -11,18 +11,18 @@ Up: aid / diplomacy / defeating common foes. Down: raiding / atrocity / broken p
 |---|---|---|---|---|---|---|---|
 | Drinax | 0603 | A43645A-E | Haven | Haven | Capital | — | The crown; home base; loaned us the Harrier |
 | Asim | 0503 | B867564-6 | (vassal) | vassal | — | — | Drinax's reconquered vassal (1085) |
-| Theev | 0506 | (see index) | Friendly | Friendly | — | — | The pirate world / Blacksand City — fence & intel hub |
-| Clarke | 0702 | (see index) | Neutral | Neutral | — | — | *Honour Among Thieves* target world (Psychopomp death-cult); raided by Ferrik |
-| Torpol | 0601 | (see index) | Suspicious | Suspicious | — | — | *Honour Among Thieves* target world (watery "party planet"); raided by Ferrik |
+| Theev | 0506 | (see index) | Friendly | Friendly | — | — | Blacksand City — fence/repair/intel hub. **Darokyn's goodwill kept** (Ferrik delivered dead/silent per his wish; his Imperial-Intel secret buried). |
+| Clarke | 0702 | (see index) | Neutral | **Friendly (↑+2)** | — | — | Ferrik's corpse delivered in Oleb's name → +2 toward Drinax. Psychopomp death-cult. |
+| Torpol | 0601 | (see index) | Suspicious | **Tolerant (↑+2)** | — | — | Ferrik delivered in Oleb's name → +2. Provost Farx a delighted ally. |
 | Borite | 0609 | E655796-4 | Suspicious | Suspicious *(goodwill seed)* | — | 0 | Sindal farm world. Crew (anon. warship) destroyed the Star Ray raider that had hunted its granary run for weeks; saved free trader *Larkspur*. Capt. Korr indebted but materially unhelpful; locals wary of the unknown gunship. Story may spread → potential warming. |
 
 *(Seed more rows from `references/setting/worlds/00_world-index.md` as the crew touch them.)*
 
 ## Kingdom summary
-- Worlds recruited: 0 · Total allied **Fighting Strength**: 0
+- Worlds recruited: 0 (Torpol/Clarke warming, not yet recruited) · Total allied **Fighting Strength**: 0
 - Royal Policy stance: not yet set
-- **Permanent bonus pending:** starting with *Honour Among Thieves* → **DM+1 to ALL Finale recruitment rolls** if completed.
-- Milestones reached: none (Phase 1 — Raiding & Establishing)
+- **Permanent bonus EARNED:** *Honour Among Thieves* (effectively) completed → **DM+1 to ALL Finale recruitment rolls.**
+- Milestones: opener won — first proof-of-concept for the privateer scheme (Phase 1 — Raiding & Establishing). MCr2.5 bounty banked.
 
 ## Court standing at Drinax
 - **King Oleb XVI:** patron; favour = good (just granted the marque).
