@@ -1,12 +1,12 @@
 # Campaign State — Pirates of Drinax (solo)
 
-> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (campaign start).
+> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~1 week post-launch; misjump in transit).
 
 ## Engine state (mythic-gm)
-- **Chaos Factor:** 4  *(↓ from 5 — PC firmly in control at scene end: defused the confrontation and won the room.)*
+- **Chaos Factor:** 5  *(↑ from 4 — jump scene ended with the PC NOT in control: the Harrier misjumped.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). Prep at Drinax complete; ready to depart for Clarke. Last scene: *Dinner with the crew* (scene 2) — resolved.
-- **Last scene recap:** Crew dinner at the Star Dragon's Table (a Sindalian-era restaurant in the Floating Palace). Random event (Move Toward Thread "the outsider" · *Stop·Battle*): Star Guard captain **Sir Coriol Tashan** (Lord Wrax's client) publicly mocked the King handing the Harrier to "an Imperial sawbones and cutthroats," nearly to blows. Shake walked over and converted the insult into a public **wager** (Persuade success, Effect +5): if the crew bring King Oleb proof they ran down the raiders, Shake wins Tashan's Sindalian heirloom blade **and** Tashan's public court endorsement; if they fail/return empty, Shake forfeits his officer's blade. Brakk stood down; Shake won the room and the crew's regard. Ready to launch for Clarke.
+- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). En route to Clarke the Harrier **MISJUMPED** — now stranded in the **Borite system (0609, Sindal subsector)**, ~5 parsecs coreward, deep in pirate country. Scene 3 (departure & jump) resolved badly; next scene = assess/recover at Borite. Awaiting player action.
+- **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
 1. Keep King Oleb's favour and the letter of marque. (2)
@@ -43,8 +43,8 @@
 - **Letter of marque:** about to be granted (good standing). Tithe to Oleb: **10% of all takings.**
 
 ## The Harrier (full log: harrier-ship-log.md)
-- Hull **51/88**; defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (partially fixed). Cosmetics faded.
-- Fuel full; at Drinax Royal Docks, ready to launch. Upgrades: none. **Ship Shares: 0 (both spent on repairs).**
+- Hull **42/88** (−9 misjump stress, cracked frames); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (held through the misjump, unverified). Cosmetics faded.
+- **MISJUMPED to Borite system (0609 Sindal). Jump fuel expended** — must refuel (Borite frontier E-port: unrefined / ocean-skim only) before jumping. Upgrades: none. **Ship Shares: 0.**
 
 ## Finances & plunder
 - Cash: ~Cr22,500 (Shake's personal). Crew pooled funds: TBD.

@@ -3,9 +3,9 @@
 > The party's ship — loaned (not given) by King Oleb; remains Crown property. Full stats/defects/upgrades: `.claude/skills/pirates-of-drinax/references/setting/the-harrier.md`. Update after damage, repairs, refuelling, upgrades. Original name *V'Hurg* — crew may rename.
 
 ## Status
-- **Hull points:** 51 / 88 (1 SRU bonded, +11; still below spec)
+- **Hull points:** 42 / 88 (−9 misjump stress; cracked along two frames)
 - **Armour:** 4 · **Thrust:** 6 · **Jump:** 2 · **Power:** 260 · **TL:** 15
-- **Current location / jump status:** Drinax (0603), Royal Docks, Floating Palace. Patched, fueled, ready to launch (~3 days dock work done).
+- **Current location / jump status:** **MISJUMPED** — Borite system (0609, Sindal subsector), ~5 parsecs coreward of intended Clarke run. **Jump fuel expended** (need to refuel before any jump; Borite = frontier E-port, unrefined only / skim oceans). Drive held at DM−1 but unverified post-misjump (Mira wants hours inside it).
 - **Fuel:** full (refined) · fuel processors functional (40 t/day; self-sufficient — gas-giant skim / ice crack)
 - **Cargo hold:** 0 / 29.7 tons
 
