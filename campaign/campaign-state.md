@@ -1,12 +1,12 @@
 # Campaign State — Pirates of Drinax (solo)
 
-> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~1 week post-launch; misjump in transit).
+> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~8–9 days post-launch; refueled at Borite).
 
 ## Engine state (mythic-gm)
-- **Chaos Factor:** 5  *(↑ from 4 — jump scene ended with the PC NOT in control: the Harrier misjumped.)*
+- **Chaos Factor:** 3  *(↓↓ — two scenes closed PC-in-control: the clean ambush win, then the undisturbed refuel.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). Misjumped into **Borite system (0609, Sindal)**; destroyed a raider but lost the prize to a scuttle. Now needs to refuel (dry jump tanks) before it can leave. Awaiting player action.
-- **Last scene recap:** Combat won — but Shake's surrender terms (life + cash + freedom vs. death) FAILED to land (Persuade 7 vs 10): the distrustful pirates, sure a captured pirate gets spaced, cracked their reactor rather than be taken. Shake declined to fire; the crew stood off and **let the Star Ray scuttle herself** (ship + crew + grain cargo lost — no prize). Hailed Captain Edda Korr (*Larkspur*): grateful but **materially unhelpful** (Exceptional No) — doesn't know who the raider was, warns Borite is a poor, suspicious E-port with no refined fuel and locals likely to take the unknown gunship for a pirate. **Tally: Harrier undamaged (42/88), dry jump tanks, deep in Sindal off-mission, a clean conscience and a thin goodwill seed at Borite.** Awaiting player's next move (refuel at Borite the hard way / press Korr / plan).
+- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). At the **Borite system (0609, Sindal)**, now **refueled and jump-capable** but still cracked-hulled (42/88) and wayward-drived (DM−1). **Strategic crossroads:** push ~2 jumps back toward the mission (Clarke/Tlaiowaha) on a misjump-prone drive, detour ~2 jumps to nearby **Theev** (Friendly pirate haven) for a real hull + drive repair, or head home — player's call. Awaiting decision.
+- **Last scene recap:** After the raider scuttled, the crew said farewell to Capt. Korr (headed home to Borite; goodwill seed, no useful intel) and ran a clean self-refuel: skimmed the Borite gas giant and refined clean jump fuel (Dak Pilot 10, no M-drive cutout; scene undisturbed). ~1 day elapsed. The Harrier is jump-ready again, undamaged in the refuel, but deep in Sindal ~5 parsecs off-mission with a hull and drive both still needing a proper yard.
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
@@ -46,7 +46,7 @@
 
 ## The Harrier (full log: harrier-ship-log.md)
 - Hull **42/88** (−9 misjump stress, cracked frames); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (held through the misjump, unverified). Cosmetics faded.
-- **MISJUMPED to Borite system (0609 Sindal). Jump fuel expended** — must refuel (Borite frontier E-port: unrefined / ocean-skim only) before jumping. Upgrades: none. **Ship Shares: 0.**
+- At **Borite system (0609 Sindal)**, **refueled with clean jump fuel** (gas-giant skim + onboard processor) — **jump-capable** (J-2, DM−1). Upgrades: none. **Ship Shares: 0.**
 
 ## Finances & plunder
 - Cash: ~Cr22,500 (Shake's personal). Crew pooled funds: TBD.
@@ -70,4 +70,5 @@
 - **Available/triggered:** the trail Clarke → Torpol → Borite → Theev → Palindrome opens once the crew take Rao's "test" mission.
 
 ## Open canon questions answered in play
-- (none yet — record Fate-Question rulings here; fold lasting ones into setting-canon.md)
+- **Borite system has a skimmable gas giant** (Fate Q, Likely → Yes) — usable wilderness refuelling point in-system.
+- The Star Ray raider that worked Borite's granary run had **no clean transponder / unknown backer**; Korr (local) doesn't know who sent it. (Likely a freelance Sindal raider, not the opener's Ferrik — unconfirmed.)

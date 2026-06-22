@@ -5,7 +5,7 @@
 ## Status
 - **Hull points:** 42 / 88 (−9 misjump stress; cracked along two frames)
 - **Armour:** 4 · **Thrust:** 6 · **Jump:** 2 · **Power:** 260 · **TL:** 15
-- **Current location / jump status:** **MISJUMPED** — Borite system (0609, Sindal subsector), ~5 parsecs coreward of intended Clarke run. **Jump fuel expended** (need to refuel before any jump; Borite = frontier E-port, unrefined only / skim oceans). Drive **verified stable at DM−1** post-misjump (Mira, Engineering Effect +5) — safe to jump once refueled; still wayward.
+- **Current location / jump status:** Borite system (0609, Sindal subsector), ~5 parsecs coreward of the intended Clarke run. **REFUELED** — skimmed the system gas giant + refined clean jump fuel (no unrefined penalty). **Jump-capable** (J-2, drive verified stable at **DM−1** wayward; misjump still possible). Hull still cracked at 42/88 (needs a yard/RU).
 - **Fuel:** full (refined) · fuel processors functional (40 t/day; self-sufficient — gas-giant skim / ice crack)
 - **Cargo hold:** 0 / 29.7 tons
 
