@@ -5,8 +5,8 @@
 ## Engine state (mythic-gm)
 - **Chaos Factor:** 3  *(↓ from 4 — the station chapter closed decisively in the PC's favour: clever monster-kill, rescue, rich salvage, the Theev gate won.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves**, **Scene 5: Blacksand City, Theev (0506).** Landed at the pirate world via Krrsh's safe-code (passed the Skull). Met by a Blacksand Widow (the law laid out). Agenda: **repair the hull at Kallos Shipyards** (use the salvaged alloy) + **sell surplus** (cash, at ~Cr10,500) + **find Miria Silverhand** → Ferrik (clock: she's brokering Ferrik's gang protection; if she seals it, the trail dies). Mind Theev's lethal law (Lords zones: no murder/weapons-fire). Awaiting player action.
-- **Last scene recap:** Cleared Borite; ran Krrsh's route to Theev. Re-skimmed the gas giant (clean), blind-jumped to the hidden fuel dump (clean), purified all fuel per Krrsh's warning (caught 2 poisoned drums), jumped clean to Theev (3 clean jumps running on the wayward drive). Passed the Skull on the code; landed at Blacksand Downport (sealed bay). Welcomed by a Widow reciting the two laws (death penalty either way). Krrsh keeping a low profile (marooned ex-Ferrik man, not safe here).
+- **Current adventure:** **01 — Honour Among Thieves**, **Scene 5/6: Theev — Miria located.** Hull being restored at Kallos (a few days → 88/88); flush on cash (~Cr435k after the surplus-alloy windfall). **Darokyn gave Miria's location: the Scrapheap (Lower City), a grounded Fat Trader; she works through runners.** CLOCK: she's nearly closed Ferrik's deal with **Petyr Vallis** — "days, not weeks" before Ferrik vanishes spinward. **Darokyn's terms:** Ferrik *ends* (quietly, thoroughly, off Theev) + crew stay off Theev a year → his friendship. *(Seed: he pointedly wants Ferrik DEAD/silent, not captured — there's a hidden reason. The bounty pays double for Ferrik ALIVE.)* Awaiting player action (go to the Scrapheap for Miria — capture/search/turn her).
+- **Last scene recap:** Split the crew at Theev. Mira + Sal to Kallos: hull restoration underway (uses the salvage → full 88), and **Sal sold the surplus Sindalian alloy for ~MCr0.5 (exceptional, double-6)** → cash crisis solved (~Cr435k after the repair fee; 10% Oleb tithe accrues). Shake + Reyna + Brakk met **Admiral Darokyn** at the Rose Pavilion. Shake's blunt opening ("what'll you give me for killing Ferrik") flopped (8 vs 10 — Darokyn cooled, wanted to know who they are). Shake recovered by sharing his **ex-Imperial-Navy** background + apologizing (14 vs 10): officer-to-officer rapport won; Darokyn dealt (Miria's location + terms + the clock).
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
@@ -32,7 +32,8 @@
 - **Provost Martial Haddo Farx** — Torpol starport admin; young, ambitious, ingratiating, always a drink in hand. Wants the raid solved to make his career → drives the investigation forward; cooperative ally at Torpol. (Electronics/computers 3, Persuade 3, Admin 2.)
 - **"Admiral" Darokyn** *(named, not yet met)* — renegade ex-Imperial officer; disciplined pirate fleet of stolen Navy hulls out of **Theev**. **Purged Ferrik** (put a bounty on him on Theev). *(gated: deeper secret TBD.)*
 - **Ferrik Redthane** *(the quarry — named)* — young, brilliant, reckless pirate; ex-Darokyn man, now hunted on Theev. Raided Clarke & Torpol as a **résumé** to buy a gang's protection. Can't land on Theev; sent Miria to broker. Hideout unknown (Krrsh doesn't know it).
-- **Miria Silverhand** *(named)* — Ferrik's cold lieutenant; on **Theev** negotiating with the gang lords for Ferrik's protection. Hates Krrsh. The key to finding Ferrik.
+- **Miria Silverhand** *(located)* — Ferrik's cold, dangerous lieutenant (cyberarm); hides in the **Scrapheap** (Lower City), a grounded Fat Trader, works through runners. **Nearly closed Ferrik's deal with Petyr Vallis** (days left). The key to finding Ferrik. Hates Krrsh.
+- **Admiral Darokyn** *(met — now an ally, conditionally)* — gave Miria's location, officer-to-officer; wants Ferrik **dead and silent** (hidden reason). Deal: kill Ferrik quietly off-world + stay off Theev a year → his friendship.
 - **Capt. Danel Vlaw** — paranoid Asiman trader (*Sarcomond*, Torpol); hates Drinax, warmed to Shake as a fellow Imperial. Minor goodwill contact.
 - **The Pirate Lords of Theev** — power players *(gated)*.
 - *(Add patrons, victims, rivals as they appear.)*
@@ -58,7 +59,7 @@
 - **CARGO: salvaged exotic Sindalian alloy (~5–6 SRU-equivalent)** — enough to **properly restore the hull to 88** at a yard (the fix TL11 couldn't do) + surplus (rebuild the ventral turret and/or sell — exotic alloy is near-priceless). Theev's Kallos Shipyards (TL15) could do the work.
 
 ## Finances & plunder
-- Cash: **~Cr10,500** (after Torpol fuel + hull patch, ~Cr12k, Farx waived half the dock fees). Crew pooled funds: TBD. Bounty needed (Torpol MCr2 + Clarke MCr0.5).
+- Cash: **~Cr435,000** (surplus Sindalian alloy sold at Theev for ~MCr0.5; minus ~Cr75k Kallos hull-repair fee). **10% tithe to Oleb accrues on takings (~Cr50k owed on the alloy sale).** Bounty still the prize (Torpol MCr2 + Clarke MCr0.5).
 - **Monthly costs:** Harrier maintenance ~Cr5,314/mo (doubled until repaired) + tithe on takings.
 - Cargo/loot: none.
 
