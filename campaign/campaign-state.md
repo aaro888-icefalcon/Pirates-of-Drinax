@@ -6,7 +6,7 @@
 - **Chaos Factor:** 5  *(↑ from 4 — jump scene ended with the PC NOT in control: the Harrier misjumped.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
 - **Current adventure:** **01 — Honour Among Thieves** (campaign opener). Misjumped into **Borite system (0609, Sindal)**; ran cold, then ambushed a raider attacking a grain-trader. **SPACE COMBAT IN PROGRESS** (top of round 2, player acts first).
-- **Last scene recap:** Stranded at Borite, the crew waited cold and unseen, then opened with a surprise particle-barbette pass on the raider (Brakk, hit Effect +4; 16 dmg). **Target = Star Ray-class interceptor**, now **64/80 hull, Severity-2 SENSORS critical (effectively blinded), crew irradiated**; its drives/guns intact but it can't see to aim and hasn't located the Harrier. The Harrier is **undamaged** (surprise) but now revealed; barbette forward-arc only; hull 42/88, dry jump tanks. The rescued grain-trader is lighting its drive to flee. **Awaiting player's round-2 action (press attack / demand surrender / disable / board / hail trader).**
+- **Last scene recap:** Stranded at Borite, the crew ambushed a raider with a surprise particle pass (16 dmg → Sev-2 Sensors crit, blinded, irradiated; Star Ray now 64/80). Shake demanded surrender (failed, Effect −3) — the **Star Ray refused and is fleeing blind** (Thrust 3; Harrier Thrust 6 can run it down). Shake also hailed the freed grain-trader: **positive reaction** — **Captain Edda Korr, free trader *Larkspur* of Borite**, grateful, offering intel (says the Star Ray has worked Borite for weeks, picking off haulers) and goodwill/help. The Harrier is undamaged; hull 42/88; dry jump tanks. **Awaiting player's round-3 action (pursue & finish/disable the Star Ray, let it run, parley with Korr, etc.).**
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
@@ -26,6 +26,7 @@
 - **Doc Hadrian** — crew medic; Shake's old colleague, exiled Imperial surgeon; wry, fellow Imperial exile.
 - **The crew** — **Dak Surrow** (pilot/astrogator: quiet, precise, superstitious about the wayward jump drive, sits facing the door); **Mira Kell** (engineer: blunt, straight-talking, loyalty earned by honesty); **Brakk** (gunner/boarder: big, hot-tempered, fiercely loyal); **Sal Quist** (QM/fence: watchful, mercenary-charming, works every room and angle).
 - **Sir Coriol Tashan** — Star Guard captain, Lord Wrax's client; publicly bet his Sindalian heirloom blade vs Shake's officer's blade on the raider hunt. Sore loser of the exchange.
+- **Captain Edda Korr** — master of the free trader *Larkspur* out of Borite; rescued by the crew from the Star Ray. Grateful, friendly, a potential local contact/intel source in the Sindal backwater.
 - **The Pirate Lords of Theev** — power players *(gated)*.
 - *(Add patrons, victims, rivals as they appear.)*
 
