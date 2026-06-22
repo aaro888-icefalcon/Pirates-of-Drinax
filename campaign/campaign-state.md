@@ -1,12 +1,12 @@
 # Campaign State — Pirates of Drinax (solo)
 
-> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~23–25 days post-launch; returned to Borite).
+> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~5–6 weeks post-launch; landed on Theev).
 
 ## Engine state (mythic-gm)
 - **Chaos Factor:** 3  *(↓ from 4 — the station chapter closed decisively in the PC's favour: clever monster-kill, rescue, rich salvage, the Theev gate won.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves**, **Scene 4 COMPLETE → the Theev gate is open (Scene 5 next).** Borite station cleared: Chamax killed, Krrsh rescued & recruited, rich exotic-alloy salvage taken, the Theev safe-code + fuel-dump obtained. Jump tanks spent (re-skim gas giant); hull 51/88 but **now repairable to full** with the salvaged Sindalian alloy at a yard. Trail → **Theev** (find Miria → Ferrik). Awaiting player action.
-- **Last scene recap:** Surgically vented the Chamax's warm lair-zones (Brakk 14 vs 10) — the monster lost its only refuge from the vacuum and **died of cold exposure**, never fought again. Boarded safely: **calmed & rescued the marooned Vargr (Shake 13 vs 8 → devoted)** — he's **Krrsh**, recruitable pilot/gunner. **Rich salvage (Mira 13 vs 8): several SRU' of exotic Sindalian alloy** (proper hull repair + surplus to sell/rebuild the ventral turret). Found a **painting of a Sindalian Emperor in the lost crown jewels** (treasure seed). **Krrsh's confession (the payoff):** the raider is **Ferrik Redthane** — ex-Darokyn man, purged, now with a Theev bounty on him; the Clarke/Torpol raids were a **résumé** to buy a gang's protection. Ferrik can't land on Theev, so sent lieutenant **Miria Silverhand** to negotiate with the gangs; Krrsh doesn't know Ferrik's hideout or which gang. **He gave the Theev safe-landing CODE + a hidden refuelling dump ~1 parsec from Theev** (lets the J-2 Harrier reach it).
+- **Current adventure:** **01 — Honour Among Thieves**, **Scene 5: Blacksand City, Theev (0506).** Landed at the pirate world via Krrsh's safe-code (passed the Skull). Met by a Blacksand Widow (the law laid out). Agenda: **repair the hull at Kallos Shipyards** (use the salvaged alloy) + **sell surplus** (cash, at ~Cr10,500) + **find Miria Silverhand** → Ferrik (clock: she's brokering Ferrik's gang protection; if she seals it, the trail dies). Mind Theev's lethal law (Lords zones: no murder/weapons-fire). Awaiting player action.
+- **Last scene recap:** Cleared Borite; ran Krrsh's route to Theev. Re-skimmed the gas giant (clean), blind-jumped to the hidden fuel dump (clean), purified all fuel per Krrsh's warning (caught 2 poisoned drums), jumped clean to Theev (3 clean jumps running on the wayward drive). Passed the Skull on the code; landed at Blacksand Downport (sealed bay). Welcomed by a Widow reciting the two laws (death penalty either way). Krrsh keeping a low profile (marooned ex-Ferrik man, not safe here).
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
@@ -54,7 +54,7 @@
 
 ## The Harrier (full log: harrier-ship-log.md)
 - Hull **51/88** (Torpol patch holds; full restore needs exotic Sindalian materials); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (wayward; held clean 3 jumps running). Cosmetics faded.
-- Back at **Borite system (0609 Sindal)**. **Jump tanks spent** (re-skim gas giant via processor). J-2, DM−1. Upgrades: none. **Ship Shares: 0.**
+- **Landed at Theev / Blacksand Downport (0506 Sindal)** — TL15 pirate haven, Friendly, has Kallos Shipyards (can do the proper exotic-hull repair). Tanks fueled. J-2, DM−1. Upgrades: none. **Ship Shares: 0.**
 - **CARGO: salvaged exotic Sindalian alloy (~5–6 SRU-equivalent)** — enough to **properly restore the hull to 88** at a yard (the fix TL11 couldn't do) + surplus (rebuild the ventral turret and/or sell — exotic alloy is near-priceless). Theev's Kallos Shipyards (TL15) could do the work.
 
 ## Finances & plunder
