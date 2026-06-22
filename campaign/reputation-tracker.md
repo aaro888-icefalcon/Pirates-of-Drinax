@@ -13,13 +13,17 @@ Up: aid / diplomacy / defeating common foes. Down: raiding / atrocity / broken p
 | Asim | 0503 | B867564-6 | (vassal) | vassal | — | — | Drinax's reconquered vassal (1085) |
 | Theev | 0506 | (see index) | Friendly | Friendly | — | — | Blacksand City — fence/repair/intel hub. **Darokyn's goodwill kept** (Ferrik delivered dead/silent per his wish; his Imperial-Intel secret buried). |
 | Clarke | 0702 | (see index) | Neutral | **Friendly (↑+2)** | — | — | Ferrik's corpse delivered in Oleb's name → +2 toward Drinax. Psychopomp death-cult. |
-| Torpol | 0601 | (see index) | Suspicious | **Tolerant (↑+2)** | — | — | Ferrik delivered in Oleb's name → +2. Provost Farx a delighted ally. |
+| Torpol | 0601 | (see index) | Suspicious | **Friendly (↑+3 total)** | not yet (Finale) | 3 | First true ally won. Delivered their raider (+2), then a partnership pitch beat GeDeCo (+1 → Friendly). **Provost Farx = firm champion/Asset** inside Torpol's gov. Safe port; trade partner; FS 3 pledged toward Drinax. |
 | Borite | 0609 | E655796-4 | Suspicious | Suspicious *(goodwill seed)* | — | 0 | Sindal farm world. Crew (anon. warship) destroyed the Star Ray raider that had hunted its granary run for weeks; saved free trader *Larkspur*. Capt. Korr indebted but materially unhelpful; locals wary of the unknown gunship. Story may spread → potential warming. |
 
 *(Seed more rows from `references/setting/worlds/00_world-index.md` as the crew touch them.)*
 
+## Doctrine & rivals
+- **Doctrine: subtle / saviour** — Drinax wins worlds as protector & partner (deeds, not intimidation), per Rao's counsel. Keep Drinax's raiding hand deniable.
+- **GeDeCo** = active rival empire-builder, courting the same worlds for the Imperium. Out-bid at Torpol (a first sting; expect them to remember).
+
 ## Kingdom summary
-- Worlds recruited: 0 (Torpol/Clarke warming, not yet recruited) · Total allied **Fighting Strength**: 0
+- **First ally won: Torpol (Friendly).** Worlds recruited: 0 (Finale mechanic) · allied **Fighting Strength** pledged: Torpol FS 3 (uncommitted until the endgame).
 - Royal Policy stance: not yet set
 - **Permanent bonus EARNED:** *Honour Among Thieves* (effectively) completed → **DM+1 to ALL Finale recruitment rolls.**
 - Milestones: opener won — first proof-of-concept for the privateer scheme (Phase 1 — Raiding & Establishing). MCr2.5 bounty banked.
