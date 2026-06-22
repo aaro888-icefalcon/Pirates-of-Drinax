@@ -6,7 +6,7 @@
 - **Chaos Factor:** 5
 - **Adventure mode:** Prepared Adventure (sandbox)
 - **Current adventure:** **01 — Honour Among Thieves** (campaign opener), Scene 1 *The Summons* (first scene — NOT scene-tested).
-- **Last scene recap:** Session Zero complete. The crew stand in the Floating Palace throne room before King Oleb XVI, about to be offered the letter of marque and the Harrier. Awaiting the player's first action.
+- **Last scene recap:** Shake accepted the marque from King Oleb (clean "yes"). Princess Rao briefed the test mission (hunt the raiders who hit Clarke then Torpol; bounties MCr0.5 + MCr2, dead-or-alive, proof required; turning them over in Oleb's name tips both worlds toward Drinax). Crew took inventory; spent both Ship Shares at the Royal Docks (hull 40→51/88; J-drive DM−2→−1). ~3 days elapsed. Ship patched, fueled, ready to launch. Awaiting next action (depart for Clarke, or more prep on Drinax).
 
 ### Threads List (weighted; ≤3)
 1. Keep King Oleb's favour and the letter of marque. (2)
@@ -30,7 +30,7 @@
 - Merchant convoys & lone traders (prey) · Imperial patrols / customs / Q-ships (law/traps) · Gas-giant & wilderness refuelling · Theev (lawless pirate port) · Derelicts & salvage · Sindalian-era ruins & lost tech · Aslan war-fleets & ihatei craft · Ion storms / deep-space hazards · Rival pirate crews · A rumoured "treasure ship."
 
 ## Crew
-- **PC:** Abhishek "Shake" Rao — **Captain & ship's surgeon** — unharmed — Medic 3, Leadership 1, Tactics(naval) 1; ~Cr22,500, 2 Ship Shares. (Full sheet: `character-sheet-shake.md`.)
+- **PC:** Abhishek "Shake" Rao — **Captain & ship's surgeon** — unharmed — Medic 3, Leadership 1, Tactics(naval) 1; ~Cr22,500, 0 Ship Shares (spent). (Full sheet: `character-sheet-shake.md`.)
 - **NPC crew (morale/loyalty all steady at start):**
   - Reyna Voss — First Officer / pilot / Face / court liaison
   - Dak Surrow — Pilot / Astrogator / Sensors
@@ -41,8 +41,8 @@
 - **Letter of marque:** about to be granted (good standing). Tithe to Oleb: **10% of all takings.**
 
 ## The Harrier (full log: harrier-ship-log.md)
-- Hull **40/88** (fragile); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), J-Drive DM−2. Cosmetics faded.
-- Fuel full; at Drinax Royal Docks. Upgrades: none. 2 Ship Shares unspent.
+- Hull **51/88**; defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (partially fixed). Cosmetics faded.
+- Fuel full; at Drinax Royal Docks, ready to launch. Upgrades: none. **Ship Shares: 0 (both spent on repairs).**
 
 ## Finances & plunder
 - Cash: ~Cr22,500 (Shake's personal). Crew pooled funds: TBD.
