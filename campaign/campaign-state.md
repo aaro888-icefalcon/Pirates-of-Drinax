@@ -5,8 +5,8 @@
 ## Engine state (mythic-gm)
 - **Chaos Factor:** 2  *(opener closed in triumph; Phase 2 will set fresh tension.)*
 - **Adventure mode:** Prepared Adventure (sandbox) → **Phase 2 (Raiding & Empire-Building) now open.**
-- **Current adventure:** **Phase 2 — Building the Kingdom (sandbox).** Opener complete. **First ally secured: Torpol → Friendly** (Reyna's partnership pitch, 13 vs 8, beat GeDeCo). Provost Farx now a firm champion at Torpol. Doctrine = subtle/saviour (Rao's counsel). Awaiting next move (court another world / raid for the war chest / pursue a thread / etc.).
-- **Last scene recap:** Consulted Princess Rao for strategy (win worlds with deeds, balance piracy vs. legitimacy, manage Aslan/Navy/GeDeCo; her own ambition runs past Oleb's). Then jumped clean to Torpol and firmed it into a **Friendly** ally — a safe port, trade partner, FS 3 pledged, Farx as champion — out-bidding GeDeCo's "development partnership." The first brick of the New Kingdom beyond Drinax/Theev.
+- **Current adventure:** **Phase 2 — Building the Kingdom (sandbox).** Allies so far: **Torpol (Friendly)**, **Clarke (Friendly, held)**. **STANDING COMMITMENT: defend Clarke from raiders** (the protector pact) → fulfilling it deepens Clarke to **Haven**; breaking it loses Clarke. **GeDeCo** is now an escalating rival (beaten twice). Awaiting next move.
+- **Last scene recap:** Flew to Clarke to deepen it — found **GeDeCo had poisoned the well** (a "man with figures" revived Clarke's old anti-Drinax grievance; random event: PC-Negative / Destroy·Project). Shake countered honestly: honoured the death-cult's grief, named the real rising dangers (Glorious Empire, ihatei, war on the Imperial frontier), and offered **free protection for only a friendly refuge** — dinner with Keeper Malos sealing the personal bond. Out-honoured the poison (11 vs 10): Clarke held Friendly + a protector pact struck; Malos a personal ally; **Haven now hinges on actually delivering the defence.** GeDeCo stung a second time.
 - **Last scene recap:** Stun-capture of Miria went sideways (weak stun 4 < END 8) but the team subdued her by force (10 vs 10); disarmed her cyberarm's hidden suicide-bomb (a near-miss that vindicated the no-shooting capture). Pulled the *Mercifuge* nav logs on her codes (Sal 10) → Ferrik on Palindrome's 4th moon. Interrogated her (Reyna+Shake 15, Effect +5): she broke completely and offered to **bait Ferrik** into a trap for "the right consideration."
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
@@ -23,6 +23,8 @@
 10. **The lost crown jewels of Sindal** — the Borite painting points at the Eagle of Sol, the Thalassan Pearl, the diamond rings of Kether (treasure seed). (1)
 11. **Darokyn's secret** — the crew alone know he's Imperial Naval Intelligence; the proof sits on his flagship. Dormant leverage (use it, sell it, or keep burying it). (1)
 12. **Phase 2 — build the New Kingdom** — raid the trade lanes, court/recruit the independent Reach worlds, grow Fighting Strength toward a restored Drinax (the long game). (2)
+13. **Honour the Clarke pact** — actually defend Clarke from raiders → deepens it to **Haven**; fail/break it → lose Clarke (and prove the death-cult's fear right). (2)
+14. **The GeDeCo rivalry** — the megacorp, beaten at Torpol & Clarke, will counter harder; it courts the same worlds for the Imperium and likely has a spy at Drinax's court. (1)
 
 ### Characters List
 - **King Oleb XVI** — cunning ex-pirate patron; Shakespearean bluster over a patient plan.
@@ -32,7 +34,8 @@
 - **The crew** — **Dak Surrow** (pilot/astrogator: quiet, precise, superstitious about the wayward jump drive, sits facing the door); **Mira Kell** (engineer: blunt, straight-talking, loyalty earned by honesty); **Brakk** (gunner/boarder: big, hot-tempered, fiercely loyal); **Sal Quist** (QM/fence: watchful, mercenary-charming, works every room and angle).
 - **Sir Coriol Tashan** — Star Guard captain, Lord Wrax's client; publicly bet his Sindalian heirloom blade vs Shake's officer's blade on the raider hunt. Sore loser of the exchange.
 - **Captain Edda Korr** — master of the free trader *Larkspur* out of Borite; rescued by the crew from the Star Ray. Grateful, friendly, a potential local contact/intel source in the Sindal backwater.
-- **Provost Martial Haddo Farx** — Torpol starport admin; young, ambitious, ingratiating, always a drink in hand. Wants the raid solved to make his career → drives the investigation forward; cooperative ally at Torpol. (Electronics/computers 3, Persuade 3, Admin 2.)
+- **Provost Martial Haddo Farx** — Torpol starport admin; ambitious, risen on the raider collar; now a **firm champion/Asset** lobbying Torpol toward Drinax.
+- **Keeper Malos** — Psychopomp death-priest & starport admin at Clarke; fair, grieving, morbidly cheery. Won over by Shake's honesty; a personal ally. Holds Drinax to "actions, not words."
 - *(Darokyn — see his full entry below; secret now revealed.)*
 - **Ferrik Redthane** *(DEAD)* — executed by the crew; delivered frozen to Torpol/Clarke for the MCr2.5 bounty. His knowledge of Darokyn's secret died with him.
 - **Miria Silverhand** *(released)* — baited Ferrik, then freed per the deal (Cr50k, quiet drop). Out of the picture; never knew the secret. (Could resurface — she knows the crew's faces.)

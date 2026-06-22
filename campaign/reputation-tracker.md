@@ -12,7 +12,7 @@ Up: aid / diplomacy / defeating common foes. Down: raiding / atrocity / broken p
 | Drinax | 0603 | A43645A-E | Haven | Haven | Capital | — | The crown; home base; loaned us the Harrier |
 | Asim | 0503 | B867564-6 | (vassal) | vassal | — | — | Drinax's reconquered vassal (1085) |
 | Theev | 0506 | (see index) | Friendly | Friendly | — | — | Blacksand City — fence/repair/intel hub. **Darokyn's goodwill kept** (Ferrik delivered dead/silent per his wish; his Imperial-Intel secret buried). |
-| Clarke | 0702 | (see index) | Neutral | **Friendly (↑+2)** | — | — | Ferrik's corpse delivered in Oleb's name → +2 toward Drinax. Psychopomp death-cult. |
+| Clarke | 0702 | (see index) | Neutral | **Friendly (held)** | not yet (Finale) | 2 | Psychopomp death-cult (profile 33-). Won +2 in the opener; GeDeCo then poisoned the well (revived its anti-Drinax grievance) — **Shake out-honoured the poison (11 vs 10) and struck a protector PACT** (Drinax defends Clarke from raiders ↔ friendly refuge). **Path to Haven = actually DELIVER the defence.** Keeper Malos now a personal ally. |
 | Torpol | 0601 | (see index) | Suspicious | **Friendly (↑+3 total)** | not yet (Finale) | 3 | First true ally won. Delivered their raider (+2), then a partnership pitch beat GeDeCo (+1 → Friendly). **Provost Farx = firm champion/Asset** inside Torpol's gov. Safe port; trade partner; FS 3 pledged toward Drinax. |
 | Borite | 0609 | E655796-4 | Suspicious | Suspicious *(goodwill seed)* | — | 0 | Sindal farm world. Crew (anon. warship) destroyed the Star Ray raider that had hunted its granary run for weeks; saved free trader *Larkspur*. Capt. Korr indebted but materially unhelpful; locals wary of the unknown gunship. Story may spread → potential warming. |
 
@@ -20,7 +20,7 @@ Up: aid / diplomacy / defeating common foes. Down: raiding / atrocity / broken p
 
 ## Doctrine & rivals
 - **Doctrine: subtle / saviour** — Drinax wins worlds as protector & partner (deeds, not intimidation), per Rao's counsel. Keep Drinax's raiding hand deniable.
-- **GeDeCo** = active rival empire-builder, courting the same worlds for the Imperium. Out-bid at Torpol (a first sting; expect them to remember).
+- **GeDeCo** = active rival empire-builder. **Beaten twice now** — out-bid at Torpol, then out-honoured at Clarke (where their agent tried to poison the alliance with fear). A cold corporation that's failed twice; expect a harder counter-stroke (seeds toward *The Vorito Gambit* / their spy at Drinax's court).
 
 ## Kingdom summary
 - **First ally won: Torpol (Friendly).** Worlds recruited: 0 (Finale mechanic) · allied **Fighting Strength** pledged: Torpol FS 3 (uncommitted until the endgame).
