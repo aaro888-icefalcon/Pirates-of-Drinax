@@ -5,7 +5,7 @@
 ## Engine state (mythic-gm)
 - **Chaos Factor:** 5  *(↑ from 4 — jump scene ended with the PC NOT in control: the Harrier misjumped.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). En route to Clarke the Harrier **MISJUMPED** — now stranded in the **Borite system (0609, Sindal subsector)**, ~5 parsecs coreward, deep in pirate country. Scene 3 (departure & jump) resolved badly; next scene = assess/recover at Borite. Awaiting player action.
+- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). Misjumped into the **Borite system (0609, Sindal)**. Now running cold at the system edge: Mira verified the drive (stable DM−1); passive sweep found a **raid in progress** — an armed raider (no clean transponder) running down a small civilian grain-trader in the inner system. Harrier unseen, holds the initiative; hull 42/88, dry jump tanks (can't leave system). **Awaiting player decision: intervene / watch / prey / stay hidden.**
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
