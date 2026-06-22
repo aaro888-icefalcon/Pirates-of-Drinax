@@ -57,12 +57,12 @@
 - **Letter of marque:** granted (good standing). Tithe to Oleb: **10% of all takings.**
 
 ## The Harrier (full log: harrier-ship-log.md)
-- Hull **51/88** (Torpol patch holds; full restore needs exotic Sindalian materials); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (wayward; held clean 3 jumps running). Cosmetics faded.
-- **Landed at Theev / Blacksand Downport (0506 Sindal)** — TL15 pirate haven, Friendly, has Kallos Shipyards (can do the proper exotic-hull repair). Tanks fueled. J-2, DM−1. Upgrades: none. **Ship Shares: 0.**
+- **Fully restored & upgraded** — hull **88/88**, **all defects cleared** (running costs normal; M-drive & J-drive sound, no misjump; ventral **triple pulse-laser turret, ALL-ARC** = point-defence; cosmetics restored → **Diplomacy DM+1/+2**). Added **Mission Pod: Diplomatic Suite** (Diplomacy DM+1; −10t cargo). The gifted wreck is now a proper warship + a courting platform.
+- At **Drinax (Royal Docks)**, fueled, jump-true. **Ship Shares: 0.**
 - **CARGO: salvaged exotic Sindalian alloy (~5–6 SRU-equivalent)** — enough to **properly restore the hull to 88** at a yard (the fix TL11 couldn't do) + surplus (rebuild the ventral turret and/or sell — exotic alloy is near-priceless). Theev's Kallos Shipyards (TL15) could do the work.
 
 ## Finances & plunder
-- Cash: **~Cr2.44M** (Cr285k + MCr2.5 bounty − Cr50k Miria − ~Cr0.3M Oleb tithe, paid). The crew are rich for the first time. Monthly costs (~Cr5.3k/mo doubled, since General Systems still unrepaired) are now trivial against this — but won't stay that way as they scale up.
+- Cash: **~Cr1.0M** (~Cr2.44M − ~Cr1.4M full refit at the Royal Docks). Still a solid war chest. **Monthly maintenance now normal (~Cr2,657/mo)** + 10% tithe on takings.
 - **Monthly costs:** Harrier maintenance ~Cr5,314/mo (doubled until repaired) + tithe on takings.
 - Cargo/loot: none.
 
