@@ -14,6 +14,7 @@ Up: aid / diplomacy / defeating common foes. Down: raiding / atrocity / broken p
 | Theev | 0506 | (see index) | Friendly | Friendly | — | — | The pirate world / Blacksand City — fence & intel hub |
 | Clarke | 0702 | (see index) | Neutral | Neutral | — | — | *Honour Among Thieves* target world (Psychopomp death-cult); raided by Ferrik |
 | Torpol | 0601 | (see index) | Suspicious | Suspicious | — | — | *Honour Among Thieves* target world (watery "party planet"); raided by Ferrik |
+| Borite | 0609 | E655796-4 | Suspicious | Suspicious *(goodwill seed)* | — | 0 | Sindal farm world. Crew (anon. warship) destroyed the Star Ray raider that had hunted its granary run for weeks; saved free trader *Larkspur*. Capt. Korr indebted but materially unhelpful; locals wary of the unknown gunship. Story may spread → potential warming. |
 
 *(Seed more rows from `references/setting/worlds/00_world-index.md` as the crew touch them.)*
 
@@ -26,7 +27,7 @@ Up: aid / diplomacy / defeating common foes. Down: raiding / atrocity / broken p
 ## Court standing at Drinax
 - **King Oleb XVI:** patron; favour = good (just granted the marque).
 - **Princess Rao:** invented the scheme; success validates her, raises her regard.
-- **Lord Wrax:** opposes the piracy plan (wanted the Harrier as his flagship) — a standing obstacle.
+- **Lord Wrax:** opposes the piracy plan (wanted the Harrier as his flagship) — a standing obstacle. His client **Capt. Tashan** publicly bested by Shake at dinner (wager: proof of the raiders vs blade-for-blade + Tashan's endorsement).
 
 ## Finale readiness
 - Projected attackers by current Standing: TBD (negligible heat so far).

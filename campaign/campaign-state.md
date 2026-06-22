@@ -5,8 +5,8 @@
 ## Engine state (mythic-gm)
 - **Chaos Factor:** 5  *(↑ from 4 — jump scene ended with the PC NOT in control: the Harrier misjumped.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). Misjumped into **Borite system (0609, Sindal)**; ambushed & defeated a raider. **Star Ray interceptor SURRENDERED** — combat won; now taking the prize. Awaiting player action (board/secure/treat prisoners/parley with Korr).
-- **Last scene recap:** The crew ran down the fleeing blind Star Ray (Dak held the firing line, no M-drive cutout) and hit it again (17 dmg → 47/80, Severity-2 FUEL crit: venting fuel, can't jump). **Morale broke (2D=4 > MOR ~3) — the Star Ray struck her colors**, powered down, broadcasting surrender; reports irradiated wounded aboard. A single light fighter punched off her hull and fled into deep space. The Harrier is **undamaged** (hull 42/88, dry jump tanks). Prize: a 200-ton Star Ray interceptor, blinded + venting fuel, salvageable. Captain Edda Korr (*Larkspur*) standing by, friendly. **Awaiting player: board & secure the prize / stop the fuel leak / handle prisoners (Shake = Medic 3) / chase the fleeing fighter / talk to Korr.**
+- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). Misjumped into **Borite system (0609, Sindal)**; destroyed a raider but lost the prize to a scuttle. Now needs to refuel (dry jump tanks) before it can leave. Awaiting player action.
+- **Last scene recap:** Combat won — but Shake's surrender terms (life + cash + freedom vs. death) FAILED to land (Persuade 7 vs 10): the distrustful pirates, sure a captured pirate gets spaced, cracked their reactor rather than be taken. Shake declined to fire; the crew stood off and **let the Star Ray scuttle herself** (ship + crew + grain cargo lost — no prize). Hailed Captain Edda Korr (*Larkspur*): grateful but **materially unhelpful** (Exceptional No) — doesn't know who the raider was, warns Borite is a poor, suspicious E-port with no refined fuel and locals likely to take the unknown gunship for a pirate. **Tally: Harrier undamaged (42/88), dry jump tanks, deep in Sindal off-mission, a clean conscience and a thin goodwill seed at Borite.** Awaiting player's next move (refuel at Borite the hard way / press Korr / plan).
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
@@ -55,7 +55,7 @@
 
 ## Empire / Reputation (full table: reputation-tracker.md)
 - Worlds recruited: 0 · Fighting Strength: 0.
-- Drinax = Haven (home). Theev = Friendly. Clarke = Neutral, Torpol = Suspicious (both raided by Ferrik — the opener's targets).
+- Drinax = Haven (home). Theev = Friendly. Clarke = Neutral, Torpol = Suspicious (both raided by Ferrik — the opener's targets). **Borite = Suspicious (goodwill seed)** — crew killed the raider plaguing its granary run; Korr indebted, locals wary.
 - Drinax court: Oleb favourable; Rao's scheme on trial; Lord Wrax opposed (his client Tashan publicly bested by Shake at dinner — minor face won for the privateer scheme, fresh grudge from the Wrax faction).
 
 ## Heat & sandbox clocks
