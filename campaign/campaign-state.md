@@ -1,12 +1,12 @@
 # Campaign State — Pirates of Drinax (solo)
 
-> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~8–9 days post-launch; refueled at Borite).
+> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~15–16 days post-launch; arrived Torpol).
 
 ## Engine state (mythic-gm)
 - **Chaos Factor:** 3  *(↓↓ — two scenes closed PC-in-control: the clean ambush win, then the undisturbed refuel.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). At the **Borite system (0609, Sindal)**, now **refueled and jump-capable** but still cracked-hulled (42/88) and wayward-drived (DM−1). **Strategic crossroads:** push ~2 jumps back toward the mission (Clarke/Tlaiowaha) on a misjump-prone drive, detour ~2 jumps to nearby **Theev** (Friendly pirate haven) for a real hull + drive repair, or head home — player's call. Awaiting decision.
-- **Last scene recap:** After the raider scuttled, the crew said farewell to Capt. Korr (headed home to Borite; goodwill seed, no useful intel) and ran a clean self-refuel: skimmed the Borite gas giant and refined clean jump fuel (Dak Pilot 10, no M-drive cutout; scene undisturbed). ~1 day elapsed. The Harrier is jump-ready again, undamaged in the refuel, but deep in Sindal ~5 parsecs off-mission with a hull and drive both still needing a proper yard.
+- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). **Arrived at Torpol (0601 Tlaiowaha)** — a raid-victim world & the mission's nearer target. Jump tanks spent; hull 42/88. Deciding how to approach a **high-law, Drinax-wary liberty port** with a patched-cruiser highport (FS 3): openly as Drinax privateers (leaning on the shared enemy) vs. quiet/disguised. Goal: pick up the raider trail, refuel, maybe patch up. Awaiting decision.
+- **Last scene recap:** Chose to claw back to the mission rather than detour to Theev. Jumped Borite → Torpol on the wayward drive and **the drive held — clean jump** (Dak Astrogation 9 vs 8; scene undisturbed). ~1 week in transit. Arrived in the Torpol system: ocean liberty port, patched Imperial light-cruiser highport, Suspicious/Unfriendly toward Drinax but recently raided by the same raiders the crew hunt.
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
@@ -46,7 +46,7 @@
 
 ## The Harrier (full log: harrier-ship-log.md)
 - Hull **42/88** (−9 misjump stress, cracked frames); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (held through the misjump, unverified). Cosmetics faded.
-- At **Borite system (0609 Sindal)**, **refueled with clean jump fuel** (gas-giant skim + onboard processor) — **jump-capable** (J-2, DM−1). Upgrades: none. **Ship Shares: 0.**
+- At **Torpol system (0601 Tlaiowaha)**. **Jump tanks spent** on the Borite→Torpol jump (refuel at Torpol Class-B). J-2, DM−1 wayward. Upgrades: none. **Ship Shares: 0.**
 
 ## Finances & plunder
 - Cash: ~Cr22,500 (Shake's personal). Crew pooled funds: TBD.

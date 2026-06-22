@@ -5,7 +5,7 @@
 ## Status
 - **Hull points:** 42 / 88 (−9 misjump stress; cracked along two frames)
 - **Armour:** 4 · **Thrust:** 6 · **Jump:** 2 · **Power:** 260 · **TL:** 15
-- **Current location / jump status:** Borite system (0609, Sindal subsector), ~5 parsecs coreward of the intended Clarke run. **REFUELED** — skimmed the system gas giant + refined clean jump fuel (no unrefined penalty). **Jump-capable** (J-2, drive verified stable at **DM−1** wayward; misjump still possible). Hull still cracked at 42/88 (needs a yard/RU).
+- **Current location / jump status:** **Torpol system (0601, Tlaiowaha)** — arrived via clean jump from Borite (drive held, DM−1). **Jump tanks spent** on the jump (operating fuel remains; refuel at Torpol Class-B highport, refined available). Hull still cracked at 42/88 (Torpol TL11 yard can only partly patch the TL15 exotic hull; proper fix needs Theev/Drinax/Sindalian materials).
 - **Fuel:** full (refined) · fuel processors functional (40 t/day; self-sufficient — gas-giant skim / ice crack)
 - **Cargo hold:** 0 / 29.7 tons
 
