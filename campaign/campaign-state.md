@@ -3,10 +3,10 @@
 > SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (campaign start).
 
 ## Engine state (mythic-gm)
-- **Chaos Factor:** 5
+- **Chaos Factor:** 4  *(↓ from 5 — PC firmly in control at scene end: defused the confrontation and won the room.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves** (campaign opener), Scene 1 *The Summons* (first scene — NOT scene-tested).
-- **Last scene recap:** Shake accepted the marque from King Oleb (clean "yes"). Princess Rao briefed the test mission (hunt the raiders who hit Clarke then Torpol; bounties MCr0.5 + MCr2, dead-or-alive, proof required; turning them over in Oleb's name tips both worlds toward Drinax). Crew took inventory; spent both Ship Shares at the Royal Docks (hull 40→51/88; J-drive DM−2→−1). ~3 days elapsed. Ship patched, fueled, ready to launch. Awaiting next action (depart for Clarke, or more prep on Drinax).
+- **Current adventure:** **01 — Honour Among Thieves** (campaign opener). Prep at Drinax complete; ready to depart for Clarke. Last scene: *Dinner with the crew* (scene 2) — resolved.
+- **Last scene recap:** Crew dinner at the Star Dragon's Table (a Sindalian-era restaurant in the Floating Palace). Random event (Move Toward Thread "the outsider" · *Stop·Battle*): Star Guard captain **Sir Coriol Tashan** (Lord Wrax's client) publicly mocked the King handing the Harrier to "an Imperial sawbones and cutthroats," nearly to blows. Shake walked over and converted the insult into a public **wager** (Persuade success, Effect +5): if the crew bring King Oleb proof they ran down the raiders, Shake wins Tashan's Sindalian heirloom blade **and** Tashan's public court endorsement; if they fail/return empty, Shake forfeits his officer's blade. Brakk stood down; Shake won the room and the crew's regard. Ready to launch for Clarke.
 
 ### Threads List (weighted; ≤3)
 1. Keep King Oleb's favour and the letter of marque. (2)
@@ -16,13 +16,15 @@
 5. Read the Aslan *ihatei* tide — threat or opportunity? (1)
 6. **(Shake) The long way home** — chase the crown, get rich and return to his brother Akhil, or lose himself out here? (2)
 7. **(Shake) The outsider** — an Imperial nobody earning a place in a kingdom not his own. (1)
+8. **Win Tashan's wager** — bring Oleb proof the raiders are dealt with → gain Tashan's heirloom blade + public court endorsement; fail/return empty → forfeit Shake's officer's blade. (1)
 
 ### Characters List
 - **King Oleb XVI** — cunning ex-pirate patron; Shakespearean bluster over a patient plan.
 - **Princess Rao** — heir; invented the privateer scheme; her own agenda *(gated)*.
 - **Reyna Voss** — crew XO/Face; Shake's ex-Navy comrade; Drinaxi noble (court access).
-- **Doc Hadrian** — crew medic; Shake's old colleague, exiled Imperial surgeon.
-- **The crew** — Dak (pilot), Mira (engineer), Brakk (gunner/boarder), Sal (boarder/QM).
+- **Doc Hadrian** — crew medic; Shake's old colleague, exiled Imperial surgeon; wry, fellow Imperial exile.
+- **The crew** — **Dak Surrow** (pilot/astrogator: quiet, precise, superstitious about the wayward jump drive, sits facing the door); **Mira Kell** (engineer: blunt, straight-talking, loyalty earned by honesty); **Brakk** (gunner/boarder: big, hot-tempered, fiercely loyal); **Sal Quist** (QM/fence: watchful, mercenary-charming, works every room and angle).
+- **Sir Coriol Tashan** — Star Guard captain, Lord Wrax's client; publicly bet his Sindalian heirloom blade vs Shake's officer's blade on the raider hunt. Sore loser of the exchange.
 - **The Pirate Lords of Theev** — power players *(gated)*.
 - *(Add patrons, victims, rivals as they appear.)*
 
@@ -52,7 +54,7 @@
 ## Empire / Reputation (full table: reputation-tracker.md)
 - Worlds recruited: 0 · Fighting Strength: 0.
 - Drinax = Haven (home). Theev = Friendly. Clarke = Neutral, Torpol = Suspicious (both raided by Ferrik — the opener's targets).
-- Drinax court: Oleb favourable; Rao's scheme on trial; Lord Wrax opposed.
+- Drinax court: Oleb favourable; Rao's scheme on trial; Lord Wrax opposed (his client Tashan publicly bested by Shake at dinner — minor face won for the privateer scheme, fresh grudge from the Wrax faction).
 
 ## Heat & sandbox clocks
 - **Imperial Heat:** ▢▢▢▢▢ (→ 06 Game of Sun & Shadow / naval hunt)
