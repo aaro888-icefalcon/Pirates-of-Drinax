@@ -3,9 +3,10 @@
 > SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~5–6 weeks post-launch; landed on Theev).
 
 ## Engine state (mythic-gm)
-- **Chaos Factor:** 2  *(↓ — the opener swept clean: Ferrik taken, the choice made, the bounty collected on the PC's terms. Crew fully in control.)*
-- **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves — RESOLVED (pending the report to Oleb).** Player chose to **execute Ferrik** (deliver him dead → buries Darokyn's secret, honors Darokyn's "dead/silent" wish, full bounty unaffected). Released **Miria** per the deal (Cr50k + freedom + quiet drop; she never knew the secret). Turned loose the *Janal Torsk* crew; kept the body + Miria's testimony + the ship/logs as proof. Delivered the raider to **Torpol (Farx, MCr2)** and **Clarke (Psychopomps, MCr0.5)** **in King Oleb's name**. **Outcomes:** bounty **MCr2.5** collected; **Torpol & Clarke shift +2 toward Drinax** (Rao's scheme proven); **Darokyn's friendship kept** (his wish honored, secret buried — crew carry the knowledge, sitting on it); J-drive clean. **Next: return to Drinax**, report to Oleb, collect the political win + **win Tashan's wager** (proof delivered) → opener fully closes; Phase 2 (sandbox/empire-building) opens.
+- **Chaos Factor:** 2  *(opener closed in triumph; Phase 2 will set fresh tension.)*
+- **Adventure mode:** Prepared Adventure (sandbox) → **Phase 2 (Raiding & Empire-Building) now open.**
+- **Current adventure:** **01 — Honour Among Thieves — COMPLETE.** Returned to Drinax; reported to Oleb (marque validated; tithe MCr0.3 paid). **Rao vindicated** (her regard for the crew now a real asset); **Wrax publicly defeated** (his objections answered, still no friend). **Tashan's wager won** — Shake declined the heirloom and proposed a **sword-trade**; Tashan (grudging, not won over — reaction 7) accepted, gave his public endorsement ("the King chose his privateer well"), and they exchanged blades (Shake now carries the Sindalian heirloom). Permanent bonus locked: **DM+1 to all Finale recruitment rolls.** **The Reach is open — player to choose the next move (Phase 2: raid / court worlds / pursue threads).**
+- **Last scene recap:** Executed Ferrik, collected the MCr2.5 bounty (Torpol/Clarke, in Oleb's name → both warmed toward Drinax), kept Darokyn's friendship + buried his secret. Sailed home on a clean drive; the court received the crew as proven privateers. Shake's "outsider" thread paid off — he's earned a place. Opener done; Phase 2 begins.
 - **Last scene recap:** Stun-capture of Miria went sideways (weak stun 4 < END 8) but the team subdued her by force (10 vs 10); disarmed her cyberarm's hidden suicide-bomb (a near-miss that vindicated the no-shooting capture). Pulled the *Mercifuge* nav logs on her codes (Sal 10) → Ferrik on Palindrome's 4th moon. Interrogated her (Reyna+Shake 15, Effect +5): she broke completely and offered to **bait Ferrik** into a trap for "the right consideration."
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
@@ -17,9 +18,11 @@
 5. Read the Aslan *ihatei* tide — threat or opportunity? (1)
 6. **(Shake) The long way home** — chase the crown, get rich and return to his brother Akhil, or lose himself out here? (2)
 7. **(Shake) The outsider** — an Imperial nobody earning a place in a kingdom not his own. (1)
-8. **Win Tashan's wager** — bring Oleb proof the raiders are dealt with → gain Tashan's heirloom blade + public court endorsement; fail/return empty → forfeit Shake's officer's blade. (1)
-9. **Run down Ferrik** — reach Theev (have the safe-code + fuel-dump) → find Miria → capture/kill Ferrik (proof for the MCr2.5 bounty); the clock: if Miria seals Ferrik into a gang first, the trail goes cold. (3)
+8. ~~Win Tashan's wager~~ — **WON** (proof delivered; sword-trade; his public endorsement; rivalry defused). *(resolved)*
+9. ~~Run down Ferrik~~ — **DONE** (captured, executed, bounty collected). *(resolved)*
 10. **The lost crown jewels of Sindal** — the Borite painting points at the Eagle of Sol, the Thalassan Pearl, the diamond rings of Kether (treasure seed). (1)
+11. **Darokyn's secret** — the crew alone know he's Imperial Naval Intelligence; the proof sits on his flagship. Dormant leverage (use it, sell it, or keep burying it). (1)
+12. **Phase 2 — build the New Kingdom** — raid the trade lanes, court/recruit the independent Reach worlds, grow Fighting Strength toward a restored Drinax (the long game). (2)
 
 ### Characters List
 - **King Oleb XVI** — cunning ex-pirate patron; Shakespearean bluster over a patient plan.
@@ -59,7 +62,7 @@
 - **CARGO: salvaged exotic Sindalian alloy (~5–6 SRU-equivalent)** — enough to **properly restore the hull to 88** at a yard (the fix TL11 couldn't do) + surplus (rebuild the ventral turret and/or sell — exotic alloy is near-priceless). Theev's Kallos Shipyards (TL15) could do the work.
 
 ## Finances & plunder
-- Cash: **~Cr2.74M** (Cr285k + **MCr2.5 bounty** − Cr50k to Miria). **10% tithe to Oleb owed on takings** (paid at Drinax — ~Cr250k+ on the bounty, plus the alloy sale). Flush.
+- Cash: **~Cr2.44M** (Cr285k + MCr2.5 bounty − Cr50k Miria − ~Cr0.3M Oleb tithe, paid). The crew are rich for the first time. Monthly costs (~Cr5.3k/mo doubled, since General Systems still unrepaired) are now trivial against this — but won't stay that way as they scale up.
 - **Monthly costs:** Harrier maintenance ~Cr5,314/mo (doubled until repaired) + tithe on takings.
 - Cargo/loot: none.
 

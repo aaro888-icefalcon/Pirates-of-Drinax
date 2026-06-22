@@ -25,9 +25,10 @@ Up: aid / diplomacy / defeating common foes. Down: raiding / atrocity / broken p
 - Milestones: opener won — first proof-of-concept for the privateer scheme (Phase 1 — Raiding & Establishing). MCr2.5 bounty banked.
 
 ## Court standing at Drinax
-- **King Oleb XVI:** patron; favour = good (just granted the marque).
-- **Princess Rao:** invented the scheme; success validates her, raises her regard.
-- **Lord Wrax:** opposes the piracy plan (wanted the Harrier as his flagship) — a standing obstacle. His client **Capt. Tashan** publicly bested by Shake at dinner (wager: proof of the raiders vs blade-for-blade + Tashan's endorsement).
+- **King Oleb XVI:** patron; favour = **strong** (marque validated; opener delivered; tithe paid).
+- **Princess Rao:** her scheme **vindicated** by the opener → her regard for the crew is now a real, bankable asset/ally.
+- **Lord Wrax:** **publicly defeated** on the privateer question (objections answered) — still no friend, but his standing dented.
+- **Sir Coriol Tashan:** lost the wager; Shake declined to humiliate him (sword-trade) → **rivalry defused into grudging, formal respect** (not an ally; reaction 7). Gave his public endorsement.
 
 ## Finale readiness
 - Projected attackers by current Standing: TBD (negligible heat so far).

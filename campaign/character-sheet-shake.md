@@ -26,8 +26,8 @@
 - *Skill-level total 11; cap 3×(INT+EDU)=78. Within limits.*
 
 ## Gear & resources
-- **Cash:** ~Cr22,500 (after starting kit). **Ship Shares: 2** (banked toward repairing/upgrading the Harrier).
-- **Kit:** advanced **medikit**, cloth armour, **snub pistol** (Zero-G safe, won't breach a hull), officer's **blade**, hand computer, comm. (Ship's vacc suits available from the Harrier armoury.)
+- **Cash:** flush after the *Honour Among Thieves* bounty (see campaign-state finances; ~Cr2.4M crew funds post-tithe). **Ship Shares: 0** (spent).
+- **Kit:** advanced **medikit**, cloth armour, **snub pistol** (Zero-G safe, won't breach a hull), **Tashan's Sindalian heirloom blade** (traded for his old officer's sword — a token of a defused rivalry & his earned place at court), hand computer, comm. (Ship's vacc suits from the Harrier armoury.)
 
 ## Ties & hooks (drives play)
 - **Akhil** — younger brother, finishing his own medical training back in the Imperium core. The person Shake actually misses. *The emotional anchor.*
