@@ -1,12 +1,12 @@
 # Campaign State — Pirates of Drinax (solo)
 
-> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~15–16 days post-launch; arrived Torpol).
+> SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~23–25 days post-launch; returned to Borite).
 
 ## Engine state (mythic-gm)
 - **Chaos Factor:** 3  *(↓↓ — two scenes closed PC-in-control: the clean ambush win, then the undisturbed refuel.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves**, **Scene 3 done → trail points back to Borite (Scene 4)**. At Torpol; jump tanks spent (refuel here); hull 42/88. Next step shaping up: refuel/repair, then jump back to Borite and **search the system properly**. Awaiting player action.
-- **Last scene recap:** Shake worked the *Sarcomond*'s captain **Danel Vlaw** by leading with his Imperial credentials (kept it Routine; Persuade 9 vs 6 → success). Vlaw's account: a refitted scout, **Vargr-captained**, tried to pirate him; his concealed pop-up turrets mauled it; as it limped off he heard the Vargr order **a jump for Borite**. The scout looked half-stripped (had dumped its haul somewhere). **Key realization:** the crew were *just at Borite* (misjump) and never swept it — whatever the scout fled *to* is in a system they already sat in for a day. Trail: scout → **Borite** (go back and scan); broader trail → Theev/Darokyn (needs a code).
+- **Current adventure:** **01 — Honour Among Thieves**, **Scene 4: Borite (the slumbering horror)** — just begun. Back in the Borite system; on a proper passive sweep the crew detected the **weak distress call** they missed last time, from the **gas giant** they'd skimmed. Jump tanks spent (have processor to re-skim); hull 51/88 (patched, holds). Deciding to approach the signal. Awaiting player action.
+- **Last scene recap:** At Torpol: refuelled + braced the hull (QoR 11 → holds; 42→51/88) — cost ~Cr12k (Farx waived half the fees); **~Cr10,500 cash left**. Clean jump back to Borite (drive held, 8 vs 8). Swept the system properly this time and found the buried automated distress beacon near the gas giant — present the whole time they were here before. *(GM/gated: this is the ancient Sindalian High Guard station — marooned Vargr Krrsh + a Hunter Chamax; Krrsh holds the safe code + fuel route to Theev. Reveal via Scene-4 checks as earned.)*
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
@@ -48,11 +48,11 @@
 - **Letter of marque:** about to be granted (good standing). Tithe to Oleb: **10% of all takings.**
 
 ## The Harrier (full log: harrier-ship-log.md)
-- Hull **42/88** (−9 misjump stress, cracked frames); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (held through the misjump, unverified). Cosmetics faded.
-- At **Torpol system (0601 Tlaiowaha)**. **Jump tanks spent** on the Borite→Torpol jump (refuel at Torpol Class-B). J-2, DM−1 wayward. Upgrades: none. **Ship Shares: 0.**
+- Hull **51/88** (Torpol patch holds; full restore needs exotic Sindalian materials); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (wayward; held clean 3 jumps running). Cosmetics faded.
+- Back at **Borite system (0609 Sindal)**. **Jump tanks spent** (re-skim gas giant via processor, or buy elsewhere). J-2, DM−1. Upgrades: none. **Ship Shares: 0.**
 
 ## Finances & plunder
-- Cash: ~Cr22,500 (Shake's personal). Crew pooled funds: TBD.
+- Cash: **~Cr10,500** (after Torpol fuel + hull patch, ~Cr12k, Farx waived half the dock fees). Crew pooled funds: TBD. Bounty needed (Torpol MCr2 + Clarke MCr0.5).
 - **Monthly costs:** Harrier maintenance ~Cr5,314/mo (doubled until repaired) + tithe on takings.
 - Cargo/loot: none.
 

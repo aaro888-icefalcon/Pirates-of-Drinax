@@ -3,9 +3,9 @@
 > The party's ship — loaned (not given) by King Oleb; remains Crown property. Full stats/defects/upgrades: `.claude/skills/pirates-of-drinax/references/setting/the-harrier.md`. Update after damage, repairs, refuelling, upgrades. Original name *V'Hurg* — crew may rename.
 
 ## Status
-- **Hull points:** 42 / 88 (−9 misjump stress; cracked along two frames)
+- **Hull points:** 51 / 88 (Torpol braced the misjump cracks; QoR 11 = holds despite wrong materials. Below as-built — full restore needs exotic Sindalian materials/SRU)
 - **Armour:** 4 · **Thrust:** 6 · **Jump:** 2 · **Power:** 260 · **TL:** 15
-- **Current location / jump status:** **Torpol system (0601, Tlaiowaha)** — arrived via clean jump from Borite (drive held, DM−1). **Jump tanks spent** on the jump (operating fuel remains; refuel at Torpol Class-B highport, refined available). Hull still cracked at 42/88 (Torpol TL11 yard can only partly patch the TL15 exotic hull; proper fix needs Theev/Drinax/Sindalian materials).
+- **Current location / jump status:** **Borite system (0609, Sindal)** — returned via clean jump from Torpol (drive held, DM−1). **Jump tanks spent** on the jump (ops fuel remains; re-skim the gas giant via processor, or buy elsewhere). On a proper passive sweep, detected the buried automated **distress beacon near the gas giant** (missed on the first visit).
 - **Fuel:** full (refined) · fuel processors functional (40 t/day; self-sufficient — gas-giant skim / ice crack)
 - **Cargo hold:** 0 / 29.7 tons
 
