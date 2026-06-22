@@ -26,7 +26,7 @@
 - *Skill-level total 11; cap 3×(INT+EDU)=78. Within limits.*
 
 ## Gear & resources
-- **Cash:** flush after the *Honour Among Thieves* bounty (see campaign-state finances; ~Cr2.4M crew funds post-tithe). **Ship Shares: 0** (spent).
+- **Cash:** flush after the *Honour Among Thieves* bounty. War chest now **~Cr1.0M** (the MCr2.5 bounty banked at ~Cr2.44M post-tithe, then ~Cr1.4M spent on the full Royal-Docks refit). Authoritative figure tracked in `campaign-state.md` → Finances. **Ship Shares: 0** (spent).
 - **Kit:** advanced **medikit**, cloth armour, **snub pistol** (Zero-G safe, won't breach a hull), **Tashan's Sindalian heirloom blade** (traded for his old officer's sword — a token of a defused rivalry & his earned place at court), hand computer, comm. (Ship's vacc suits from the Harrier armoury.)
 
 ## Ties & hooks (drives play)
