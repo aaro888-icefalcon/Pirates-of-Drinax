@@ -7,7 +7,7 @@
 - **Armour:** 4 · **Thrust:** 6 · **Jump:** 2 · **Power:** 260 · **TL:** 15
 - **Current location / jump status:** **Borite system (0609, Sindal)** — returned via clean jump from Torpol (drive held, DM−1). **Jump tanks spent** on the jump (ops fuel remains; re-skim the gas giant via processor, or buy elsewhere). On a proper passive sweep, detected the buried automated **distress beacon near the gas giant** (missed on the first visit).
 - **Fuel:** full (refined) · fuel processors functional (40 t/day; self-sufficient — gas-giant skim / ice crack)
-- **Cargo hold:** 0 / 29.7 tons
+- **Cargo hold:** salvaged **exotic Sindalian alloy (~5–6 SRU-equivalent)** from the Borite station — enough to **properly restore the hull to 88** at a yard (e.g., Theev's Kallos Shipyards) + surplus (ventral-turret rebuild materials and/or high-value sale; the alloy is near-impossible to source). Plus a recovered Vargr crewman (Krrsh).
 
 ## Active defects (as-gifted, until repaired)
 - [ ] **General Systems wear** — operating costs DOUBLED (~5 TRU clears it; −20%/TRU)

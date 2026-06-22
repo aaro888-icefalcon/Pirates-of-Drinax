@@ -3,10 +3,10 @@
 > SOURCE OF TRUTH. Overwrite at the end of every scene. Engine = mythic-gm; content = pirates-of-drinax. In-fiction date: **1105** (~23–25 days post-launch; returned to Borite).
 
 ## Engine state (mythic-gm)
-- **Chaos Factor:** 4  *(↑ from 3 — the station boarding went badly: mauled by the Chamax and forced to retreat.)*
+- **Chaos Factor:** 3  *(↓ from 4 — the station chapter closed decisively in the PC's favour: clever monster-kill, rescue, rich salvage, the Theev gate won.)*
 - **Adventure mode:** Prepared Adventure (sandbox)
-- **Current adventure:** **01 — Honour Among Thieves**, **Scene 4: the Sindalian station — FIRST ATTEMPT FAILED, retreated.** Back aboard the *Harrier* at Borite. The boarding went badly; need a better-equipped second attempt to reach the witness. Jump tanks spent (re-skim gas giant); hull 51/88. Awaiting player action (regroup/plan return / treat & rest / etc.).
-- **Last scene recap:** The Chamax fight turned against the crew — Shake's stab missed, Sal couldn't budge it, Shake was bitten (suit double-breached, ~5 dmg). The snub pistol barely dented it (4 of 39 Hits). They ran for the airlock under cover; the **withdrawal failed (6 vs 8)** so the faster hunter overtook the rear, but its lunge at Sal **missed (7 vs 8)** — everyone got out. **Key intel earned:** at the airlock the Chamax **balked at open vacuum and went visibly sluggish** — Dak's read: *the vacuum weakens it; it won't leave the station.* Back aboard, Doc + Shake (Medic 3) treated Shake — wounded, two scars, ~a day weak, but fine. **Costs:** rescue failed (Krrsh still trapped/rationing air), no salvage, one wrecked vacc suit. Still NEED Krrsh (the Theev safe-code + fuel route). Plan a smarter return (boarding armour, motion trackers, exploit the vacuum weakness).
+- **Current adventure:** **01 — Honour Among Thieves**, **Scene 4 COMPLETE → the Theev gate is open (Scene 5 next).** Borite station cleared: Chamax killed, Krrsh rescued & recruited, rich exotic-alloy salvage taken, the Theev safe-code + fuel-dump obtained. Jump tanks spent (re-skim gas giant); hull 51/88 but **now repairable to full** with the salvaged Sindalian alloy at a yard. Trail → **Theev** (find Miria → Ferrik). Awaiting player action.
+- **Last scene recap:** Surgically vented the Chamax's warm lair-zones (Brakk 14 vs 10) — the monster lost its only refuge from the vacuum and **died of cold exposure**, never fought again. Boarded safely: **calmed & rescued the marooned Vargr (Shake 13 vs 8 → devoted)** — he's **Krrsh**, recruitable pilot/gunner. **Rich salvage (Mira 13 vs 8): several SRU' of exotic Sindalian alloy** (proper hull repair + surplus to sell/rebuild the ventral turret). Found a **painting of a Sindalian Emperor in the lost crown jewels** (treasure seed). **Krrsh's confession (the payoff):** the raider is **Ferrik Redthane** — ex-Darokyn man, purged, now with a Theev bounty on him; the Clarke/Torpol raids were a **résumé** to buy a gang's protection. Ferrik can't land on Theev, so sent lieutenant **Miria Silverhand** to negotiate with the gangs; Krrsh doesn't know Ferrik's hideout or which gang. **He gave the Theev safe-landing CODE + a hidden refuelling dump ~1 parsec from Theev** (lets the J-2 Harrier reach it).
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
 ### Threads List (weighted; ≤3)
@@ -18,6 +18,8 @@
 6. **(Shake) The long way home** — chase the crown, get rich and return to his brother Akhil, or lose himself out here? (2)
 7. **(Shake) The outsider** — an Imperial nobody earning a place in a kingdom not his own. (1)
 8. **Win Tashan's wager** — bring Oleb proof the raiders are dealt with → gain Tashan's heirloom blade + public court endorsement; fail/return empty → forfeit Shake's officer's blade. (1)
+9. **Run down Ferrik** — reach Theev (have the safe-code + fuel-dump) → find Miria → capture/kill Ferrik (proof for the MCr2.5 bounty); the clock: if Miria seals Ferrik into a gang first, the trail goes cold. (3)
+10. **The lost crown jewels of Sindal** — the Borite painting points at the Eagle of Sol, the Thalassan Pearl, the diamond rings of Kether (treasure seed). (1)
 
 ### Characters List
 - **King Oleb XVI** — cunning ex-pirate patron; Shakespearean bluster over a patient plan.
@@ -28,8 +30,10 @@
 - **Sir Coriol Tashan** — Star Guard captain, Lord Wrax's client; publicly bet his Sindalian heirloom blade vs Shake's officer's blade on the raider hunt. Sore loser of the exchange.
 - **Captain Edda Korr** — master of the free trader *Larkspur* out of Borite; rescued by the crew from the Star Ray. Grateful, friendly, a potential local contact/intel source in the Sindal backwater.
 - **Provost Martial Haddo Farx** — Torpol starport admin; young, ambitious, ingratiating, always a drink in hand. Wants the raid solved to make his career → drives the investigation forward; cooperative ally at Torpol. (Electronics/computers 3, Persuade 3, Admin 2.)
-- **"Admiral" Darokyn** *(named, not yet met)* — renegade ex-Imperial officer running a disciplined pirate fleet of stolen Navy hulls out of **Theev**; the raiders' stolen warship (*Mercifuge*) fits his profile. *(gated: deeper secret TBD.)*
-- **Capt. Danel Vlaw** — paranoid, gravelly Asiman trader; master of the *Sarcomond* (under repair at Torpol Downport). Hates Drinax; warmed to Shake as a fellow Imperial. Minor goodwill contact; tipped the crew that the Vargr scout fled to Borite.
+- **"Admiral" Darokyn** *(named, not yet met)* — renegade ex-Imperial officer; disciplined pirate fleet of stolen Navy hulls out of **Theev**. **Purged Ferrik** (put a bounty on him on Theev). *(gated: deeper secret TBD.)*
+- **Ferrik Redthane** *(the quarry — named)* — young, brilliant, reckless pirate; ex-Darokyn man, now hunted on Theev. Raided Clarke & Torpol as a **résumé** to buy a gang's protection. Can't land on Theev; sent Miria to broker. Hideout unknown (Krrsh doesn't know it).
+- **Miria Silverhand** *(named)* — Ferrik's cold lieutenant; on **Theev** negotiating with the gang lords for Ferrik's protection. Hates Krrsh. The key to finding Ferrik.
+- **Capt. Danel Vlaw** — paranoid Asiman trader (*Sarcomond*, Torpol); hates Drinax, warmed to Shake as a fellow Imperial. Minor goodwill contact.
 - **The Pirate Lords of Theev** — power players *(gated)*.
 - *(Add patrons, victims, rivals as they appear.)*
 
@@ -45,11 +49,13 @@
   - Brakk — Lead Gunner / boarding leader
   - Sal Quist — Boarder / Quartermaster / 2nd gunner / fence
   - Doc Hadrian — Medic / Steward
-- **Letter of marque:** about to be granted (good standing). Tithe to Oleb: **10% of all takings.**
+  - **Krrsh** (NEW — rescued at Borite) — Vargr Pilot/Gunner/comms; Pilot 2, Gunner 2, Electronics(comms) 1, Astrogation 1, Engineer(j-drive) 1, Streetwise 2. Not bright, broken, fiercely devoted to Shake who saved him. Knows the Theev routes.
+- **Letter of marque:** granted (good standing). Tithe to Oleb: **10% of all takings.**
 
 ## The Harrier (full log: harrier-ship-log.md)
 - Hull **51/88** (Torpol patch holds; full restore needs exotic Sindalian materials); defects active: double running costs, ventral turret dead, M-Drive cutout (Pilot double-1), **J-Drive DM−1** (wayward; held clean 3 jumps running). Cosmetics faded.
-- Back at **Borite system (0609 Sindal)**. **Jump tanks spent** (re-skim gas giant via processor, or buy elsewhere). J-2, DM−1. Upgrades: none. **Ship Shares: 0.**
+- Back at **Borite system (0609 Sindal)**. **Jump tanks spent** (re-skim gas giant via processor). J-2, DM−1. Upgrades: none. **Ship Shares: 0.**
+- **CARGO: salvaged exotic Sindalian alloy (~5–6 SRU-equivalent)** — enough to **properly restore the hull to 88** at a yard (the fix TL11 couldn't do) + surplus (rebuild the ventral turret and/or sell — exotic alloy is near-priceless). Theev's Kallos Shipyards (TL15) could do the work.
 
 ## Finances & plunder
 - Cash: **~Cr10,500** (after Torpol fuel + hull patch, ~Cr12k, Farx waived half the dock fees). Crew pooled funds: TBD. Bounty needed (Torpol MCr2 + Clarke MCr0.5).
@@ -68,9 +74,9 @@
 - **Rival pirates:** ▢▢▢▢▢
 
 ## Adventures
-- **In play:** 01 Honour Among Thieves (opening — the summons).
-- **Completed:** none.
-- **Available/triggered:** the trail Clarke → Torpol → Borite → Theev → Palindrome opens once the crew take Rao's "test" mission.
+- **In play:** 01 Honour Among Thieves — trail run Torpol → (Sarcomond) → Borite (station cleared, Krrsh rescued). **Next: Theev** (Blacksand City) → find Miria → Ferrik on Palindrome (0606).
+- **Completed:** none (opener in progress).
+- **Gate obtained:** Theev safe-landing code + a hidden refuelling dump ~1 parsec from Theev (Krrsh). Treasure seed: the lost Sindalian crown jewels (Borite painting).
 
 ## Open canon questions answered in play
 - **Borite system has a skimmable gas giant** (Fate Q, Likely → Yes) — usable wilderness refuelling point in-system.
