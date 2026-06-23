@@ -15,11 +15,13 @@ Two [Claude Code skills](https://code.claude.com/docs) (installed under
 
 - **`mythic-gm`** — the **engine**. Runs the play loop, rolls every die honestly
   through Python scripts, asks the Mythic oracle, fires Random Events, and
-  enforces a strict no-softening discipline.
-- **`pirates-of-drinax`** — the **content pack**. The Traveller 2e ruleset, the
+  enforces a strict no-softening discipline. Content-free and shared across any
+  RPG.
+- **`pirates-of-drinax`** — the **companion**. The Traveller 2e ruleset, the
   Trojan Reach setting and worlds, the Harrier, the piracy & empire-building
-  subsystems, and spoiler-gated breakdowns of every set adventure. It layers
-  onto the engine.
+  subsystems, and spoiler-gated breakdowns of every set adventure. It ships a
+  **`bridge/`** that fills the engine's hooks (rules, tone, canon, clocks,
+  generators, and the ingested campaign), so the engine plays *this* world.
 
 [`CLAUDE.md`](CLAUDE.md) tells Claude how to drive both.
 

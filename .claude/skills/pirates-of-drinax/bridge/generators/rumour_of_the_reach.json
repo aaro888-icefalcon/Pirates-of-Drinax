@@ -1,0 +1,22 @@
+{ "id":"pod.rumour_of_the_reach", "title":"Rumours of the Reach (patron & adventure seeds)", "type":"list_d100", "dice":"1d100",
+  "source":"references/campaign/adventures/00_index.md + references/campaign/adventures/11_patrons-and-opportunities.md",
+  "note":"Feeds the seed deck and Random-Event interpretations (Remote Event / NPC Action / Move Toward a Thread). A rumour is a DOORWAY, not a guarantee — surface the hook, let the crew choose, keep spoilers gated. The (→ NN) tag names the episode it can open.",
+  "entries":[
+    {"min":1,"max":8,"value":"A fat, slow prize is routed through a nearby lane — a score worth chasing (→ raiding / 02 Treasure Ship)"},
+    {"min":9,"max":16,"value":"A port contact / court holo dangles a paying job (→ 11 Patrons & Opportunities)"},
+    {"min":17,"max":24,"value":"Aslan ihatei are massing near the border; a warlord may unite them (→ 03 Ihatei! / 14 Friends in Dry Places)"},
+    {"min":25,"max":31,"value":"A Sindalian treasure or lost vault has surfaced in the rumour mill (→ 05 Treasure of Sindal / 18 Shadows of Sindal)"},
+    {"min":32,"max":38,"value":"The Imperial Navy is asking questions about the 'pirate world' (→ Heat / 06 Game of Sun & Shadow)"},
+    {"min":39,"max":45,"value":"A world is quietly courting outside help against a rival or threat (→ empire-building / world recruitment)"},
+    {"min":46,"max":51,"value":"A rival corsair band is muscling in — or uniting raiders into a fleet (→ corsair-warlord thread)"},
+    {"min":52,"max":57,"value":"GeDeCo is meddling on a world — leverage, or a wall (→ 07 Vorito Gambit / 17 Liberty Port)"},
+    {"min":58,"max":63,"value":"A derelict, a downed ship, or a stranded somebody is out there (→ salvage / 16 Lions of Thebus)"},
+    {"min":64,"max":69,"value":"Court politics at Drinax stir — Oleb, Rao, Harrick, Wrax (→ 09 Blood of the Star Dragon, foreshadow)"},
+    {"min":70,"max":75,"value":"A debt, favour, or old contact comes due (→ 08 The Prodigal Outcast / crew Connections)"},
+    {"min":76,"max":81,"value":"Unrest or revolt brews on a corporate or oppressed world (→ 13 Revolution on Acrid / 15 Cordan Conflict)"},
+    {"min":82,"max":87,"value":"An exotic-tech, anomaly, or 'god' lead draws the curious (→ 04 The Demon's Eye / 12 Gods of Marduk)"},
+    {"min":88,"max":92,"value":"News of a great-power move — a war scare, a treaty, a fleet shift — changes the board"},
+    {"min":93,"max":97,"value":"A betrayal, a leak, or a spy is exposed (someone's secret is suddenly worth money)"},
+    {"min":98,"max":100,"value":"A wild card — roll a Mythic Random Event (oracle.py event) for the real twist"}
+  ]
+}

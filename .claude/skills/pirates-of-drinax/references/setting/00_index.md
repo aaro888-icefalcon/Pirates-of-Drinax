@@ -1,6 +1,6 @@
 # Trojan Reach — Setting Index
 
-> Use this when: you need a world, faction, NPC, or ship fact. Canon here overrides invention; when canon is silent, ask a Fate Question and record the answer to `../integration/setting-canon.md`.
+> Use this when: you need a world, faction, NPC, or ship fact. Canon here overrides invention; when canon is silent, ask a Fate Question and record the answer to campaign state (ground truth: `../../bridge/setting-canon.md`).
 
 | File | What's in it |
 |---|---|

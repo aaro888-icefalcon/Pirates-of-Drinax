@@ -24,7 +24,7 @@ This skill turns **Mongoose Traveller 2e** + the **Pirates of Drinax** campaign 
 
 ## ⚠️ FIRST ACTIONS (every time this skill is invoked)
 
-1. **Ensure the engine is loaded.** This pack assumes **mythic-gm**. If it is available, it owns the loop, dice, oracle, Chaos, Lists, and discipline — defer to its `SKILL.md`. If it is *not* loaded, tell the user this campaign is built to run on the mythic-gm skill and ask them to enable it; do not reinvent the engine.
+1. **Ensure the engine is loaded.** This pack assumes **mythic-gm**. If it is available, it owns the loop, dice, oracle, Chaos, Lists, and discipline — defer to its `SKILL.md`. If it is *not* loaded, tell the user this campaign is built to run on the mythic-gm skill and ask them to enable it; do not reinvent the engine. **Companion bridge for mythic-gm: `./bridge/`** — load it with `python3 ../mythic-gm/scripts/bridge.py summary ./bridge`.
 2. **Read the live state.** Look for `campaign-state.md` in the campaign folder.
    - **Present** → continue: recap the last beat, reload only the references the current scene needs (see Reference Loading Guide), resume mythic-gm's Turn.
    - **Absent** → run **PoD SESSION ZERO** (below).
@@ -33,18 +33,22 @@ This skill turns **Mongoose Traveller 2e** + the **Pirates of Drinax** campaign 
 
 ---
 
-## How this pack plugs into mythic-gm (the seam)
+## How this pack plugs into mythic-gm (the bridge)
 
-mythic-gm reads a small fixed set of files from the **campaign folder** (defined by mythic-gm's own adaptation guide, its `compatibility-spec.md`). This pack ships those files **ready-made** so Session Zero is copy-not-derive:
+This pack is a **mythic-gm companion**: it ships a **`bridge/`** that fills the engine's hooks (see the engine's `COMPANION-SKILLS.md`). The engine is content-free and shared; the bridge supplies the *world*. At session start the engine loads it — `python3 ../mythic-gm/scripts/bridge.py summary ./bridge` — and uses a bridge override where present, else the engine default.
 
-| mythic-gm expects | This pack provides (copy into campaign folder) |
+| engine hook | filled by (in `bridge/`) |
 |---|---|
-| `system-profile.md` (task resolution & combat) | `references/integration/system-profile.md` |
-| `setting-canon.md` (world ground-truth) | `references/integration/setting-canon.md` |
-| `keyed-scenes.md` + seeded Threads/Characters/Features | `references/integration/keyed-scenes.md` + `references/campaign/seed-lists.md` |
-| `character-sheet.md` (per PC) | built via `references/rules/character-creation.md` flow |
+| `resolve` (task resolution & combat) | `bridge/system-profile.md` (Traveller 2e seam) |
+| `meaning` (how to read the oracle; how NPCs act) | `bridge/interpretation.md` (genre tone + faction lens) |
+| `chaos` / `themes` | `bridge/chaos-tendency.md` · `bridge/theme-weights.md` |
+| `generate:*` (NPC/prey/hazard/rumour) | `bridge/generators/registry.md` + verified `*.json` tables |
+| `world-tick` (the doom clocks) | `bridge/subsystems.md` (Heat, ihatei, Drinax decay, rivals…) |
+| `seeds` | `bridge/seeds.md` |
+| `adventure-ingest` (the set campaign, pure sandbox) | `bridge/adventures/pirates-of-drinax.md` (clusters → `references/campaign/adventures/`) |
+| ground-truth lore | `bridge/setting-canon.md` |
 
-The engine never changes; only these campaign files do. When a rule, place, or NPC is unstated, mythic-gm decides it with a Fate Question and records it to canon/state. **Precedence:** this pack's references/sources > Claude's training memory of Traveller or Drinax.
+The **engine never changes**; only the bridge (fixed reference) and the live `campaign/` folder do. When a rule, place, or NPC is unstated, mythic-gm decides it with a Fate Question and records it to campaign state. **Precedence:** this pack's `bridge/` + `references/` + `sources/` > Claude's training memory of Traveller or Drinax.
 
 ---
 
@@ -52,10 +56,10 @@ The engine never changes; only these campaign files do. When a rule, place, or N
 
 Run mythic-gm's Session Zero, making these PoD choices:
 
-1. **Engine & tone.** mythic-gm; honest dice; genre = **space-opera piracy with hard consequences** (`references/integration/genre-pirates-of-drinax.md`). Resolution: Fate Chart, Chaos Factor 5.
-2. **Ruleset.** Copy `references/integration/system-profile.md` → campaign folder (Traveller 2e seam).
-3. **Setting.** Copy `references/integration/setting-canon.md` → campaign folder. Skim `references/setting/00_index.md`.
-4. **Adventure mode = Prepared Adventure (sandbox).** Copy `references/integration/keyed-scenes.md`; seed the Threads/Characters/Adventure-Features Lists from `references/campaign/seed-lists.md`.
+1. **Load the bridge.** `python3 ../mythic-gm/scripts/bridge.py summary ./bridge` — this brings in the Traveller 2e seam, the Reach canon, tone, clocks, generators, and the ingested campaign. No files are copied into the campaign folder; the engine reads the bridge directly.
+2. **Engine & tone.** mythic-gm; honest dice; genre = **space-opera piracy with hard consequences** (`bridge/interpretation.md`). Resolution: Fate Chart, Chaos Factor 5 (`bridge/chaos-tendency.md`).
+3. **Setting.** Ground truth is `bridge/setting-canon.md`; skim `references/setting/00_index.md` for depth.
+4. **Adventure mode = ingested sandbox.** The set campaign is `bridge/adventures/pirates-of-drinax.md` (pure sandbox, never rails); seed the Threads/Characters/Adventure-Features Lists from it + `references/campaign/seed-lists.md`.
 5. **Create the crew.** Use `references/rules/character-creation.md` (Traveller lifepath). Fast option: the pregen crew in `references/campaign/the-crew.md`. Record each to a `character-sheet.md`.
 6. **The ship.** Assign the **Harrier** (`references/setting/the-harrier.md`) as the shared party asset; copy `assets/templates/harrier-ship-log.md` into state.
 7. **The reputation metagame.** Initialize the empire/attitude tracker from `references/campaign/empire-reputation.md` (`assets/templates/reputation-tracker.md`).
@@ -113,7 +117,8 @@ When opening an adventure, read its **Setup** + **Player-facing** first. Pull GM
 | **Empire-building / reputation metagame** | `references/campaign/empire-reputation.md` |
 | The campaign arc & how the sandbox flows | `references/campaign/00_overview.md` |
 | A specific adventure (spoiler-gated) | `references/campaign/adventures/00_index.md` → the file |
-| Tone & stakes vocabulary | `references/integration/genre-pirates-of-drinax.md` |
+| Tone & stakes vocabulary, NPC/faction lens | `bridge/interpretation.md` |
+| The bridge (engine hooks: seam, canon, clocks, generators, ingested campaign) | `bridge/bridge.md` |
 | Verbatim rules/lore (when a reference is thin) | `sources/` (full converted books) |
 | Maps (Reach, subsectors, Harrier deck plan, Drinax) | `assets/maps/` |
 

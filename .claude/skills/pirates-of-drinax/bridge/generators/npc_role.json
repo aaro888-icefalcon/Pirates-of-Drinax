@@ -1,0 +1,24 @@
+{ "id":"pod.npc_role", "title":"Trojan Reach NPC Role", "type":"list_d100", "dice":"1d100",
+  "source":"references/setting/personalities-and-factions.md + references/setting/factions.md",
+  "note":"Used in CONJUNCTION with the AC Character Crafter: roll the Crafter for the person, this table for their place in the Reach. Layer faction-true wants from interpretation.md/setting-canon.md.",
+  "entries":[
+    {"min":1,"max":8,"value":"Free trader captain / independent merchant (potential prey, contact, or rival)"},
+    {"min":9,"max":14,"value":"Belter, prospector, or wilderness-refuelling hand"},
+    {"min":15,"max":20,"value":"Starport worker / dockhand / shipyard tech"},
+    {"min":21,"max":26,"value":"Mercenary or hired gun (for sale, or hunting the crew)"},
+    {"min":27,"max":32,"value":"Imperial Navy officer or rating (the law / a future hunter)"},
+    {"min":33,"max":38,"value":"Customs officer, port authority, or law enforcement"},
+    {"min":39,"max":44,"value":"World noble / aristocrat / planetary ruler or heir"},
+    {"min":45,"max":50,"value":"Bureaucrat, magistrate, or government official"},
+    {"min":51,"max":56,"value":"GeDeCo or megacorp agent / executive / advisor"},
+    {"min":57,"max":62,"value":"Spy or intelligence operative (Imperial, corporate, or freelance)"},
+    {"min":63,"max":69,"value":"Pirate / corsair from a rival crew (Theev or freelance)"},
+    {"min":70,"max":75,"value":"Smuggler, fence, or black-market broker"},
+    {"min":76,"max":81,"value":"Aslan warrior or ihatei (landless, land-hungry, honour-bound)"},
+    {"min":82,"max":86,"value":"Aslan noble / clan official / tihalu (clan administrator)"},
+    {"min":87,"max":90,"value":"Vargr corsair or drifter"},
+    {"min":91,"max":94,"value":"Scholar, scientist, or engineer (Sindal lore, lost tech)"},
+    {"min":95,"max":97,"value":"Priest or cultist (Clarke Psychopomp, Marduk sea-cult, fringe faith)"},
+    {"min":98,"max":100,"value":"Drifter, refugee, escaped slave, or outcast (a loose thread)"}
+  ]
+}

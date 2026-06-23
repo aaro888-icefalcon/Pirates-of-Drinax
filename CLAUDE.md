@@ -15,14 +15,18 @@ Both are installed under `.claude/skills/` and available via the Skill tool.
 
 | Skill | Role | Owns |
 |---|---|---|
-| **`mythic-gm`** | The **engine** | The play loop ("the Turn"), all dice (Python scripts under `scripts/`), the Mythic oracle / Fate Questions / Random Events, Chaos Factor, the Threads & Characters Lists, and the no-softening discipline. |
-| **`pirates-of-drinax`** | The **content pack** | Traveller 2e rules, the Trojan Reach setting & world data, the Harrier, the piracy & empire-building subsystems, and the spoiler-gated set adventures. Layers *onto* mythic-gm. |
+| **`mythic-gm`** | The **engine** (v2) | The play loop ("the Turn"), all dice (Python scripts under `scripts/`), the Mythic oracle / Fate Questions / Random Events, Chaos Factor, the Threads & Characters Lists, and the no-softening discipline. Content-free and shared across any RPG. |
+| **`pirates-of-drinax`** | The **companion** (content + bridge) | Traveller 2e rules, the Trojan Reach setting & world data, the Harrier, the piracy & empire-building subsystems, and the spoiler-gated set adventures — plus a **`bridge/`** that fills the engine's hooks. Layers *onto* mythic-gm. |
 
 **The relationship:** `pirates-of-drinax` is the campaign; `mythic-gm` is what
-runs it. The content pack supplies the ruleset/setting/adventures shaped to
-slot into mythic-gm's "campaign folder" contract; the engine rolls every die
-and paces every scene. Precedence for facts and rules:
-**skill `references/` and `sources/` > your training memory of Traveller or Drinax.**
+runs it. mythic-gm is the **engine**; the content pack is a **companion** whose
+`bridge/` fills the engine's hooks (resolve, meaning, chaos, themes, generators,
+world-tick, seeds, adventure-ingest — see the engine's `COMPANION-SKILLS.md`).
+The engine rolls every die and paces every scene; the bridge supplies the
+*world*. At Session Zero the engine loads the bridge:
+`python3 .claude/skills/mythic-gm/scripts/bridge.py summary .claude/skills/pirates-of-drinax/bridge`.
+Precedence for facts and rules:
+**the companion's `bridge/` + `references/` + `sources/` > your training memory of Traveller or Drinax.**
 
 ---
 
@@ -40,10 +44,10 @@ or adventure:
 2. **Read the live state.** The **campaign folder for this repo is `campaign/`.**
    Look for `campaign/campaign-state.md`:
    - **Present** → recap the last beat in 2–3 sentences and resume the Turn.
-   - **Absent** → run **PoD Session Zero** (build the crew, copy the seam files
-     into `campaign/`, assign the Harrier, seed the sandbox, open with *Honour
-     Among Thieves*). Per the skills, write live files into `campaign/`, not
-     into `.claude/skills/`.
+   - **Absent** → run **PoD Session Zero** (load the pack's `bridge/`, build the
+     crew, assign the Harrier, seed the sandbox, open with *Honour Among
+     Thieves*). The bridge is read in place from `.claude/skills/`; only **live
+     play state** is written into `campaign/` — never edit `.claude/skills/`.
 
 Do not re-derive the rules here — the skills' `SKILL.md` files are the
 authoritative operating manuals. This file only points you at them.
@@ -96,11 +100,14 @@ authoritative operating manuals. This file only points you at them.
 ```
 CLAUDE.md                     ← this file (how to run the game)
 README.md                     ← human-facing overview
-campaign/                     ← LIVE PLAY STATE lives here (campaign-state.md, seam files, sheets)
+campaign/                     ← LIVE PLAY STATE (campaign-state.md + PoD trackers & sheets)
   └─ README.md                ← what each campaign file is + persistence note
 .claude/skills/
-  ├─ mythic-gm/               ← the ENGINE (scripts/, data/, references/, SKILL.md)
-  └─ pirates-of-drinax/       ← the CONTENT pack (rules/, setting/, campaign/, sources/, assets/, SKILL.md)
+  ├─ mythic-gm/               ← the ENGINE v2 (scripts/, data/, references/, agents/,
+  │                              SKILL.md, COMPANION-SKILLS.md, CONVERSION.md)
+  └─ pirates-of-drinax/       ← the COMPANION: content (references/, sources/, assets/, SKILL.md)
+        └─ bridge/            ← fills the engine's hooks (system-profile, interpretation,
+                                 chaos, themes, subsystems, seeds, generators/, adventures/, setting-canon)
 ```
 
 When you need a specific rule, world, NPC, ship, or adventure beat, use the
