@@ -1,0 +1,17 @@
+{ "id":"pod.prey_ship", "title":"Commerce-Raiding Prey", "type":"list_d100", "dice":"1d100",
+  "source":"references/rules/piracy-raiding.md + references/setting/ships-of-the-reach.md",
+  "note":"What the crew find when they pick a hunting ground and look for prey. REPLACES generic encounter when raiding. Stat the hull from ships-of-the-reach.md; doctrine = disable, don't destroy. Heat/Standing consequences via subsystems.md.",
+  "entries":[
+    {"min":1,"max":22,"value":"Free Trader (Type A, ~200t) — lone hauler, light or no escort; the bread-and-butter prize"},
+    {"min":23,"max":38,"value":"Far Trader (Type A2, ~200t) — faster, jump-2, may run rather than fight"},
+    {"min":39,"max":50,"value":"Subsidized Merchant (Type R, ~400t) — fat cargo, modest crew"},
+    {"min":51,"max":60,"value":"Subsidized Liner / passenger packet (~600t) — passengers (ransom risk) + mixed cargo"},
+    {"min":61,"max":70,"value":"Bulk freighter / heavy hauler (600-1000t) — rich, slow, hard to crew with a prize party"},
+    {"min":71,"max":78,"value":"A dry hole — empty ballast run, low-value bulk, or already-looted; little to take"},
+    {"min":79,"max":85,"value":"Armed trader or Q-ship — looks soft, hits back; a trap (escalate, expect a real fight)"},
+    {"min":86,"max":91,"value":"Naval patrol, SDB, or customs cutter — the LAW; this is a fight or a flight, not a prize"},
+    {"min":92,"max":96,"value":"Aslan trader or clan vessel — raiding it courts an honour vendetta (see interpretation.md)"},
+    {"min":97,"max":99,"value":"A rival pirate / corsair working the same lane — contest, parley, or co-operate"},
+    {"min":100,"max":100,"value":"Something strange — a derelict, a treasure-ship rumour made real, or chain a Mythic Random Event"}
+  ]
+}

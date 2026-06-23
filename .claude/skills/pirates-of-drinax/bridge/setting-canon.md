@@ -70,21 +70,21 @@
 ## Pointers (topic → drill-down reference)
 | Topic | File |
 |---|---|
-| Sector geography, subsectors, travel routes, refuelling, history | `references/setting/trojan-reach.md` |
-| Powers/clans in depth, honour rules, Aslan reaction table, piracy-heat & fleets | `references/setting/factions.md` |
-| Drinax, the Floating Palace, King Oleb, the court, the marque & starting offer | `references/setting/drinax.md` |
-| Campaign-critical worlds (rulers, defences, hooks, attitudes) | `references/setting/worlds/key-worlds.md` |
-| Every Reach world — full UWPs / hex / subsector data | `references/setting/worlds/00_world-index.md` |
-| Recurring NPCs (full stat lines, wants, secrets) | `references/setting/personalities-and-factions.md` |
-| The Harrier — stats, power budget, defects/repairs, deckplan, upgrades, raiding tactics | `references/setting/the-harrier.md` |
-| NPC & enemy ship stats (pirate/navy hulls, clan fleets) | `references/setting/ships-of-the-reach.md` |
-| Empire-building / reputation metagame — world Attitudes, recruitment, Fighting Strength, the endgame | `references/campaign/empire-reputation.md` |
-| Campaign arc, three phases, sandbox flow, adventure order | `references/campaign/00_overview.md` |
-| A specific adventure (spoiler-gated) | `references/campaign/adventures/00_index.md` → the file |
-| Tone & stakes vocabulary | `references/integration/genre-pirates-of-drinax.md` |
-| Task resolution & combat seam (Traveller 2e) | `references/integration/system-profile.md` |
-| Keyed scenes / seeded Threads & Characters | `references/integration/keyed-scenes.md` + `references/campaign/seed-lists.md` |
-| Verbatim rules/lore when a reference is thin | `sources/` (full converted books) |
+| Sector geography, subsectors, travel routes, refuelling, history | `../references/setting/trojan-reach.md` |
+| Powers/clans in depth, honour rules, Aslan reaction table, piracy-heat & fleets | `../references/setting/factions.md` |
+| Drinax, the Floating Palace, King Oleb, the court, the marque & starting offer | `../references/setting/drinax.md` |
+| Campaign-critical worlds (rulers, defences, hooks, attitudes) | `../references/setting/worlds/key-worlds.md` |
+| Every Reach world — full UWPs / hex / subsector data | `../references/setting/worlds/00_world-index.md` |
+| Recurring NPCs (full stat lines, wants, secrets) | `../references/setting/personalities-and-factions.md` |
+| The Harrier — stats, power budget, defects/repairs, deckplan, upgrades, raiding tactics | `../references/setting/the-harrier.md` |
+| NPC & enemy ship stats (pirate/navy hulls, clan fleets) | `../references/setting/ships-of-the-reach.md` |
+| Empire-building / reputation metagame — world Attitudes, recruitment, Fighting Strength, the endgame | `../references/campaign/empire-reputation.md` |
+| Campaign arc, three phases, sandbox flow, adventure order | `../references/campaign/00_overview.md` |
+| A specific adventure (spoiler-gated) | `../references/campaign/adventures/00_index.md` → the file |
+| Tone & stakes vocabulary | `interpretation.md` |
+| Task resolution & combat seam (Traveller 2e) | `system-profile.md` |
+| Keyed scenes / seeded Threads & Characters | `adventures/pirates-of-drinax.md` + `../references/campaign/seed-lists.md` |
+| Verbatim rules/lore when a reference is thin | `../sources/` (full converted books) |
 
 ## Source
 Condensed from the bundled references: `setting/trojan-reach.md`, `setting/factions.md`, `setting/drinax.md`, `setting/worlds/key-worlds.md`, `setting/personalities-and-factions.md`, `setting/the-harrier.md`, `campaign/empire-reputation.md`, `campaign/00_overview.md` — themselves drawn from *Pirates of Drinax* Books 1–2, the *Drinaxian Companion*, the *Harrier-Class Commerce Raider* supplement, and *The Third Imperium*. Canon precedence: this file > detailed references > training knowledge; when all are silent, a Fate Question decides and is recorded here.

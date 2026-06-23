@@ -9,14 +9,14 @@ This skill lets you play **Pirates of Drinax** — Mongoose Traveller 2e's sandb
 - It assumes Mongoose Traveller 2e. The full converted rulebooks and campaign books are bundled in `sources/` for verbatim lookup, so no other files are needed to play.
 
 ## How to use
-Install both skills, then say e.g. *"Let's play Pirates of Drinax solo"* or *"Be my GM for a Traveller pirate campaign in the Trojan Reach."* Claude runs PoD Session Zero: it copies the ready-made seam files (`references/integration/`) into the campaign folder, builds your crew, assigns the Harrier, seeds the sandbox, and opens with *Honour Among Thieves*.
+Install both skills, then say e.g. *"Let's play Pirates of Drinax solo"* or *"Be my GM for a Traveller pirate campaign in the Trojan Reach."* Claude runs PoD Session Zero: it loads this pack's `bridge/` into the engine, builds your crew, assigns the Harrier, seeds the sandbox, and opens with *Honour Among Thieves*.
 
 ## What's inside
 - `SKILL.md` — the operating manual: how it plugs into mythic-gm, Session Zero, the pirate play loop, spoiler discipline, and the reference map.
 - `references/rules/` — Traveller 2e, play-ready: task system, personal & space combat, equipment, starship ops, trade, **commerce-raiding/piracy**, world data, character creation.
 - `references/setting/` — the Trojan Reach: overview, factions, Drinax & the court, a master world index (all 16 subsectors), key-world profiles, recurring NPCs, the Harrier, and enemy/prey ships.
 - `references/campaign/` — the campaign arc, the **empire-building reputation metagame**, the crew/pregens, Session-Zero seed Lists, and `adventures/` (spoiler-gated breakdowns of all set adventures + the Patrons collection + the optional *Shadows of Sindal*).
-- `references/integration/` — the mythic-gm seam: `system-profile.md`, `setting-canon.md`, `keyed-scenes.md`, genre pack.
+- `bridge/` — the **mythic-gm companion bridge** (fills the engine's hooks): `system-profile.md` (Traveller 2e seam), `setting-canon.md`, `interpretation.md` (tone + faction lens), `chaos-tendency.md`, `theme-weights.md`, `subsystems.md` (doom clocks), `seeds.md`, `generators/` (verified tables), and `adventures/` (the set campaign ingested as pure-sandbox clusters). Validate with `python3 ../mythic-gm/scripts/bridge.py validate ./bridge`.
 - `references/discipline/` — PoD-specific GMing reminders.
 - `assets/templates/` — campaign-state, reputation tracker, and Harrier ship-log templates.
 - `assets/maps/` — key maps (Trojan Reach, Drinax, the Harrier deck plan) where available.

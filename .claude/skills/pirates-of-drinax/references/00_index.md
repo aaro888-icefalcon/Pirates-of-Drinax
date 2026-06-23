@@ -2,13 +2,19 @@
 
 > Use this when: deciding which reference to load. Read only what the current scene needs. `SKILL.md` is the operating manual; this is the map of `references/` (full verbatim books are in `sources/`, maps in `assets/maps/`).
 
-## integration/ — the mythic-gm seam (copy these into the campaign folder at Session Zero)
-| File | Purpose |
-|---|---|
-| `integration/system-profile.md` | Traveller 2e task resolution & combat — the RPG seam the engine reads. |
-| `integration/setting-canon.md` | Lean world ground-truth (consult before inventing). |
-| `integration/keyed-scenes.md` | Campaign-level triggers for Prepared-Adventure mode. |
-| `integration/genre-pirates-of-drinax.md` | Tone & "maximal honest consequence" vocabulary. |
+## ../bridge/ — the mythic-gm companion bridge (fills the engine's hooks; loaded at Session Zero)
+> These live in the skill's `bridge/` (a sibling of `references/`), not in `references/`. The engine reads them directly via `bridge.py`; nothing is copied into the campaign folder.
+
+| File | Purpose | Hook |
+|---|---|---|
+| `bridge/system-profile.md` | Traveller 2e task resolution & combat — the RPG seam the engine reads. | resolve |
+| `bridge/setting-canon.md` | Lean world ground-truth (consult before inventing). | (canon) |
+| `bridge/interpretation.md` | Tone, "maximal honest consequence," and the per-faction NPC lens. | meaning |
+| `bridge/chaos-tendency.md` · `bridge/theme-weights.md` | Chaos start/volatility/floor; fixed Adventure-Crafter theme weights. | chaos · themes |
+| `bridge/subsystems.md` | The Reach doom clocks (Imperial Heat, ihatei pressure, Drinax decay, rivals…). | world-tick |
+| `bridge/seeds.md` · `bridge/generators/` | Seed-deck sources; verified `list_d100`/`list_d10` tables + routing index. | seeds · generate:* |
+| `bridge/adventures/pirates-of-drinax.md` | The set campaign ingested as pure-sandbox clusters (→ `campaign/adventures/`). | adventure-ingest |
+| `bridge/bridge.md` | The manifest (which hooks are overridden + file map). | — |
 
 ## rules/ — Traveller 2e (play-ready)
 | File | Purpose |

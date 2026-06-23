@@ -1,0 +1,16 @@
+{ "id":"pod.reach_hazard", "title":"Trojan Reach Travel Hazard / Complication", "type":"list_d10", "dice":"1d10",
+  "source":"references/rules/starship-operations.md + references/setting/trojan-reach.md",
+  "note":"Draw when a jump/travel leg or an Adventure-Feature slot calls for a Reach complication. The frontier bites; pre-commit stakes, then resolve with the System Profile or a Fate Question.",
+  "entries":[
+    {"min":1,"max":1,"value":"Misjump or drive trouble — the wayward J-drive throws the jump (Astrogation/Engineer check; off-course in lawless space)"},
+    {"min":2,"max":2,"value":"Ion storm or radiation flare — sensors blind, hull stress, jump masked or scrambled"},
+    {"min":3,"max":3,"value":"Fuel shortage — no skimmable giant or hostile port; rationing, wilderness refuel risk"},
+    {"min":4,"max":4,"value":"Imperial patrol or customs inspection — papers, cargo, the marque means nothing to them"},
+    {"min":5,"max":5,"value":"Aslan war-fleet or ihatei craft crossing the lane — honour, threat, or opportunity"},
+    {"min":6,"max":6,"value":"Derelict or salvage — a drifting hull, a debris field, lost cargo (and who else is looking)"},
+    {"min":7,"max":7,"value":"Distress call — a genuine rescue, a patron hook, or pirate bait"},
+    {"min":8,"max":8,"value":"Sindalian ruin or lost-tech site — a vault, a relic, a hazard the dead Empire left behind"},
+    {"min":9,"max":9,"value":"A rival pirate crew working the same hunting ground — contest, parley, or blood"},
+    {"min":10,"max":10,"value":"Plague-zone, quarantine, or a hostile world's defences — the Reach's many ways to die"}
+  ]
+}

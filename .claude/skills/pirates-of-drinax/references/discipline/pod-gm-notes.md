@@ -12,7 +12,7 @@
 
 ## Portrayal care
 - **The Aslan** are an honour culture with their own logic, not villains — play *ihatei* land-hunger, clan honour, and duelling as coherent and sympathetic-from-within. Avoid caricature; their reactions follow `factions.md`.
-- Slavery, atrocity, and the brutality of piracy exist in the setting; portray consequences honestly without gratuitous detail, and respect the player's hard content lines (`integration/setting-canon.md`).
+- Slavery, atrocity, and the brutality of piracy exist in the setting; portray consequences honestly without gratuitous detail, and respect the player's hard content lines (`../../bridge/setting-canon.md`).
 
 ## Reward good piracy
 Scouting a target, choosing soft prey, forcing a bloodless surrender, smart diplomacy that grows the kingdom — when the player plays well, let honest dice reward it. Earned safety is not softening.
