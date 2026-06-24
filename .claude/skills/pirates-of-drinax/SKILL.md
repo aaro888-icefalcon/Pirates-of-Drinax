@@ -56,7 +56,7 @@ The **engine never changes**; only the bridge (fixed reference) and the live `ca
 
 Run mythic-gm's Session Zero, making these PoD choices:
 
-1. **Load the bridge.** `python3 ../mythic-gm/scripts/bridge.py summary ./bridge` — this brings in the Traveller 2e seam, the Reach canon, tone, clocks, generators, and the ingested campaign. No files are copied into the campaign folder; the engine reads the bridge directly.
+1. **Load the bridge.** `python3 ../mythic-gm/scripts/bridge.py summary ./bridge` (override map), then `python3 ../mythic-gm/scripts/bridge.py brief ./bridge` to **load each override's operative digest** (the imperatives — esp. *resolve* = roll real Traveller checks not Fate Questions, and *world-tick* = run `tick.py` every bookkeeping). This brings in the Traveller 2e seam, the Reach canon, tone, clocks, generators, and the ingested campaign. No files are copied into the campaign folder; the engine reads the bridge directly.
 2. **Engine & tone.** mythic-gm; honest dice; genre = **space-opera piracy with hard consequences** (`bridge/interpretation.md`). Resolution: Fate Chart, Chaos Factor 5 (`bridge/chaos-tendency.md`).
 3. **Setting.** Ground truth is `bridge/setting-canon.md`; skim `references/setting/00_index.md` for depth.
 4. **Adventure mode = ingested sandbox.** The set campaign is `bridge/adventures/pirates-of-drinax.md` (pure sandbox, never rails); seed the Threads/Characters/Adventure-Features Lists from it + `references/campaign/seed-lists.md`.

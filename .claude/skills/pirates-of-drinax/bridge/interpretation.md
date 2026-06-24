@@ -3,6 +3,11 @@
 Broad GM-craft for THIS world. **Not a reskin table.** Read on every interpretation, NPC moment, and Random Event.
 This is how the oracle's bare results are read *true to the setting* — and how NPCs act to win within it.
 
+> **Operative digest:** Read EVERY oracle/Meaning/Random-Event result through this lens before narrating — space-opera
+> piracy on a lethal frontier; the romance is real but brutality always has a price. NPCs, navies, and rival pirates
+> **act to win** — roll their competence, never play them dumb; apply the faction wants below so their moves are
+> setting-true. Player ≠ PC knowledge: facts the crew haven't earned are only potential, and may be wrong.
+
 ## Reading the oracle here
 - **Genre = space-opera piracy on a contested frontier** — swashbuckling, opportunistic, and lethal. Read Meaning/Fate
   results with colour: technicolour court drama at Drinax, an invincible-seeming Imperium, exotic honour-bound Aslan,

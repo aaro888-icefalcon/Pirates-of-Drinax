@@ -4,6 +4,13 @@
 > bridge (it is the companion's canonical `system-profile.md`); `python3 ../../mythic-gm/scripts/system.py route`
 > prints the routing rule. Full rules live in `../references/rules/`; this is the routing summary.
 
+> **Operative digest:** THE COMPANION (Traveller 2e) RESOLVES EVERY PC ACTION — do not substitute a Fate Question.
+> Roll the real check (rung 1, NOT the oracle) for: any PC **skill** use (Persuade, Gun Combat, Astrogation, Engineer,
+> Stealth, Medic, Broker, Recon…); an **opposed** contest vs an NPC; personal & space **combat**; jump/astrogation/
+> sensors/repairs; the **piracy** and **trade** procedures; reading UWP data. Express as `dice.py roll 2d6+<DM> [adv|dis]`,
+> pre-commit the stakes, show the dice, read the Effect. `dice.py fate` is ONLY for world facts / NPC intent / offscreen
+> events the rules don't cover — never for the PC's own checks. **Per scene: did every PC check get a real roll, not a Fate Question?**
+
 ## Dice convention
 - Core mechanic: **2D6 + DMs**. Express rolls for the engine as `dice.py roll 2d6+<DM>`. Damage: `roll 3d6`, `roll 2d6+2`, etc.
 - **Boon** (roll 3D, keep best 2) → `roll 2d6+<DM> adv`. **Bane** (keep worst 2) → `... dis`. (The engine's adv/dis models Traveller's Boon/Bane.)

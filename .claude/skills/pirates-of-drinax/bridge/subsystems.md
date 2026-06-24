@@ -5,6 +5,11 @@
 > result to campaign state. These are the Reach's living pressures — they run whether or not the crew act.
 > Mechanics live in the cited references; this registry only schedules them.
 
+> **Operative digest:** RUN `tick.py --bridge <bridge> --campaign <campaign>` AT EVERY BOOKKEEPING STEP — it reads the
+> scene # from adventure.json and reports DUE rows; advance each by rolling its table / ticking its clock and WRITE the
+> result to campaign-state. These clocks (Imperial Heat, ihatei, Drinax decay, rival pirates, PRI, Standing, tithe) run
+> whether or not the crew act — skip the tick and the whole sandbox silently stalls. It prints "(nothing due)" when idle, so its absence is conspicuous.
+
 | subsystem | cadence | advance by |
 |---|---|---|
 | Imperial Heat | on trigger: a big or near-Drinax raid, an atrocity, or exposure | +1 box; at 5 boxes → **06 Game of Sun & Shadow** goes live (Navy sweep). Check monthly with `dice.py keyed 1d10 <target>`. (`../references/rules/piracy-raiding.md`) |

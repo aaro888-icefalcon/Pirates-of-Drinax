@@ -1,4 +1,7 @@
 # Seed Sources — Trojan Reach   (hook: seeds)
+> **Operative digest:** Refresh the 30–40 card seed deck (`campaign/seeds.md`) EACH bookkeeping from: canon near the
+> PC, live world state (clocks, Attitudes, open Threads), the open adventure clusters, and random generator rolls.
+> Draw next-beat candidates from the deck, not from thin air.
 - deck size: 35            # 30–40
 - refresh: each bookkeeping
 - sources:

@@ -5,6 +5,11 @@
 > Anything not listed → Mythic/AC default. Roll a table with:
 > `python3 ../../mythic-gm/scripts/dice.py table <abs path to the .json>` (the engine rolls it honestly).
 
+> **Operative digest:** Prefer CANON over a roll — named worlds/ships/NPCs have authored stats & wants; roll a
+> generator only to invent the unstated. NEW characters auto-fire the AC Character Crafter **+** `npc_role.json`
+> (conjunction) when scripts get `--bridge`. Prey → `prey_ship.json`; travel hazard → `reach_hazard.json`; patron/
+> rumour → `rumour_of_the_reach.json` (all `replace`). Roll any table with `dice.py table <abs path>`.
+
 | need | when it's called | table(s) | mode |
 |---|---|---|---|
 | new NPC (generic) | any new Character invoked, no faction tie | AC Character Crafter **+** `npc_role.json` | **conjunction** |

@@ -8,6 +8,11 @@ fidelity: light
 > Content bias: **medium** — prefer a relevant authored cluster/fragment, else roll a random Plot Point. Keep a usage
 > ledger; lean toward un-used fragments. When a Turning Point draws one fragment from a cluster, prefer its siblings.
 
+> **Operative digest:** Pure sandbox — NEVER railroad. Surface authored clusters/fragments only by contextual relevance
+> (content bias medium: prefer a relevant authored beat, else roll a random Plot Point). Read only Setup + Player-facing
+> up front; reveal GM-only/Truth one earned beat at a time (Player ≠ PC knowledge). Honest dice may overturn the script
+> — adapt. Only 01 (start) and 10 (Finale) are effectively fixed.
+
 ## Campaign spine (the through-line — frame these as Expected Scenes when their trigger fires, then Scene-Test)
 ### cluster: spine-01 — "The King's offer"   (source: 01 Honour Among Thieves)
 scene: Session start — Oleb's marque + the Harrier; Princess Rao's "test" mission (hunt the raider Ferrik Redthane). **Must happen first; not Scene-Tested.**
