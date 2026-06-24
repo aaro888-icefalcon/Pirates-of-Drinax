@@ -3,55 +3,68 @@
  "entries": [
   {
    "name": "Keep King Oleb's favour & the letter of marque",
-   "weight": 2
+   "weight": 2,
+   "note": "Patron bond; favour strong (opener delivered, tithe paid). Lose it → lose the marque & Drinax."
   },
   {
    "name": "Make the Harrier pay — raid, trade, survive the month",
-   "weight": 2
+   "weight": 2,
+   "note": "Pirate income vs ~Cr2,657/mo upkeep + 10% tithe; war chest ~Cr1.0M but only shrinking lately."
   },
   {
    "name": "Restore (or seize) the Kingdom of Drinax — the long game",
-   "weight": 1
+   "weight": 1,
+   "note": "The Dragon Throne / new-kingdom victory track; the whole campaign's end."
   },
   {
    "name": "Stay ahead of the Imperial Navy's attention (Heat)",
-   "weight": 1
+   "weight": 1,
+   "note": "Imperial Heat clock → at 5 boxes the Navy sweep (06 Game of Sun & Shadow) goes live."
   },
   {
    "name": "Read the Aslan ihatei tide — threat or opportunity?",
-   "weight": 1
+   "weight": 1,
+   "note": "Masterless second-sons massing on the border; invasion (03 Ihatei!) or opportunity."
   },
   {
    "name": "(Shake) The long way home — crown & riches, or lose himself?",
-   "weight": 2
+   "weight": 2,
+   "note": "Chase the crown & riches and return to brother Akhil, or lose himself out here. Emotional anchor."
   },
   {
    "name": "(Shake) The outsider earning a place in a kingdom not his own",
-   "weight": 1
+   "weight": 1,
+   "note": "An Imperial nobody earning standing in a kingdom that isn't his."
   },
   {
    "name": "The lost crown jewels of Sindal (Borite painting lead)",
-   "weight": 1
+   "weight": 1,
+   "note": "Borite painting points at the Eagle of Sol, Thalassan Pearl, diamond rings of Kether — treasure lead."
   },
   {
    "name": "Darokyn's secret — Imperial Intel, proof on his flagship",
-   "weight": 1
+   "weight": 1,
+   "note": "Crew alone know Admiral Darokyn is Imperial Naval Intelligence deep-cover; proof on his flagship — dormant blackmail/heist leverage."
   },
   {
    "name": "Phase 2 — build the New Kingdom (raid, court, grow Fighting Strength)",
-   "weight": 2
+   "weight": 2,
+   "note": "Raid lanes, court/recruit independent Reach worlds, grow Fighting Strength toward a restored Drinax."
   },
   {
    "name": "Honour the Clarke pact — defend Clarke → Haven",
-   "weight": 2
+   "weight": 2,
+   "note": "Actually defend Clarke from raiders → deepens to Haven; fail/break → lose Clarke."
   },
   {
    "name": "The GeDeCo rivalry",
-   "weight": 1
+   "weight": 1,
+   "note": "Megacorp rival empire-builder; beaten 3× (Torpol, Clarke, Paal); overdue a hard counter; likely a court spy."
   },
   {
    "name": "The corsair warlord massing to sack Pourne",
-   "weight": 2
+   "weight": 2,
+   "note": "Rival uniting raider bands to sack Pourne; danger + the key to winning Pourne if broken. No hard intel yet (Krrsh came up blank)."
   }
  ]
 }

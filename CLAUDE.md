@@ -24,7 +24,9 @@ runs it. mythic-gm is the **engine**; the content pack is a **companion** whose
 world-tick, seeds, adventure-ingest — see the engine's `COMPANION-SKILLS.md`).
 The engine rolls every die and paces every scene; the bridge supplies the
 *world*. At Session Zero the engine loads the bridge:
-`python3 .claude/skills/mythic-gm/scripts/bridge.py summary .claude/skills/pirates-of-drinax/bridge`.
+`python3 .claude/skills/mythic-gm/scripts/bridge.py summary .claude/skills/pirates-of-drinax/bridge`,
+then `... bridge.py brief ...` on the same path to **load each override's operative digest** (the imperatives —
+resolve/world-tick/etc. — not just the hook names; this is what keeps the discipline firing in play).
 Precedence for facts and rules:
 **the companion's `bridge/` + `references/` + `sources/` > your training memory of Traveller or Drinax.**
 

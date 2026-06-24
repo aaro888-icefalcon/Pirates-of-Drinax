@@ -3,79 +3,98 @@
  "entries": [
   {
    "name": "King Oleb XVI",
-   "weight": 1
+   "weight": 1,
+   "note": "Cunning ex-pirate patron; Shakespearean bluster over a patient plan; favour strong."
   },
   {
    "name": "Princess Rao",
-   "weight": 1
+   "weight": 1,
+   "note": "Heir; invented the privateer scheme (now vindicated); her own gated agenda."
   },
   {
    "name": "Reyna Voss",
-   "weight": 1
+   "weight": 1,
+   "note": "Crew XO / First Pilot / Face; Shake's ex-Navy comrade; Drinaxi noble w/ court access (Leadership 2, Persuade 2)."
   },
   {
    "name": "Doc Hadrian",
-   "weight": 1
+   "weight": 1,
+   "note": "Medic/Steward; exiled Imperial surgeon; wry fellow exile (Medic 3)."
   },
   {
    "name": "Dak Surrow",
-   "weight": 1
+   "weight": 1,
+   "note": "Pilot/Astrogator/Sensors; quiet, precise, superstitious about the jump drive."
   },
   {
    "name": "Mira Kell",
-   "weight": 1
+   "weight": 1,
+   "note": "Chief Engineer; blunt, straight-talking; loyalty earned by honesty (Engineer 2)."
   },
   {
    "name": "Brakk",
-   "weight": 1
+   "weight": 1,
+   "note": "Lead Gunner / boarder; big, hot-tempered, fiercely loyal (Gunner 2)."
   },
   {
    "name": "Sal Quist",
-   "weight": 1
+   "weight": 1,
+   "note": "Boarder / QM / 2nd gunner / fence; watchful, mercenary-charming; works every angle (Streetwise 2)."
   },
   {
    "name": "Krrsh",
-   "weight": 1
+   "weight": 1,
+   "note": "Vargr pilot/gunner/comms rescued at Borite; not bright, broken, devoted to Shake; knows the Theev routes."
   },
   {
    "name": "Sir Coriol Tashan",
-   "weight": 1
+   "weight": 1,
+   "note": "Star Guard captain (Wrax's client); lost the wager, rivalry defused to grudging respect; gave public endorsement."
   },
   {
    "name": "Captain Edda Korr",
-   "weight": 1
+   "weight": 1,
+   "note": "Master of the free trader Larkspur (Borite); rescued by the crew; grateful contact/intel in the Sindal backwater."
   },
   {
    "name": "Provost Martial Haddo Farx",
-   "weight": 1
+   "weight": 1,
+   "note": "Torpol starport admin; ambitious; now a firm champion/Asset lobbying Torpol toward Drinax."
   },
   {
    "name": "Keeper Malos",
-   "weight": 1
+   "weight": 1,
+   "note": "Psychopomp death-priest & Clarke starport admin; won by honesty; personal ally; holds Drinax to 'actions, not words'."
   },
   {
    "name": "Admiral Darokyn",
-   "weight": 1
+   "weight": 1,
+   "note": "SECRET (crew-only): Imperial Naval Intelligence deep-cover running Theev; wants Ferrik silent; proof on his flagship. Conditional friendship."
   },
   {
    "name": "Miria Silverhand",
-   "weight": 1
+   "weight": 1,
+   "note": "Released cyber-armed merc; baited Ferrik then freed (Cr50k). Out of the picture but knows the crew's faces — could resurface."
   },
   {
    "name": "Capt. Danel Vlaw",
-   "weight": 1
+   "weight": 1,
+   "note": "Paranoid Asiman trader (Sarcomond, Torpol); hates Drinax, warmed to Shake as a fellow Imperial. Minor goodwill."
   },
   {
    "name": "Matron Sera Avelline",
-   "weight": 1
+   "weight": 1,
+   "note": "Paal: pro-Drinax old-blood council matron; allied freely; Drinax's foothold inside the oligarchy."
   },
   {
    "name": "Magnate Ivo Sarrel",
-   "weight": 1
+   "weight": 1,
+   "note": "Paal: centrist swing-bloc leader, WON by Shake's pitch (conditional); fears Prison/vassalage & Waste/being spent. Avelline+Sarrel = majority in waiting."
   },
   {
    "name": "The Pirate Lords of Theev",
-   "weight": 1
+   "weight": 1,
+   "note": "Gated power players of the lawless pirate port of Theev."
   }
  ]
 }

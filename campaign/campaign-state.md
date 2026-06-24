@@ -16,42 +16,12 @@
 - **Last scene recap:** Stun-capture of Miria went sideways (weak stun 4 < END 8) but the team subdued her by force (10 vs 10); disarmed her cyberarm's hidden suicide-bomb (a near-miss that vindicated the no-shooting capture). Pulled the *Mercifuge* nav logs on her codes (Sal 10) → Ferrik on Palindrome's 4th moon. Interrogated her (Reyna+Shake 15, Effect +5): she broke completely and offered to **bait Ferrik** into a trap for "the right consideration."
 - **Last scene recap:** Shake ordered the launch for Clarke. Refined fuel, but the still-wayward J-drive (DM−1) threw the jump — Astrogation check failed (Effect −3) → **misjump**: flung 5 parsecs coreward into Sindal subsector, pulled out at **Borite (0609)**. Costs: hull 51→42/88 (cracked frames), **all jump fuel spent**, drive held but unverified, ~1 week gone, badly off-mission in lawless space near Theev. Chaos Factor 4→5.
 
-### Threads List (weighted; ≤3)
-1. Keep King Oleb's favour and the letter of marque. (2)
-2. Make the Harrier pay — raid, trade, and survive the next month. (2)
-3. Restore (or seize) the Kingdom of Drinax — the long game. (1)
-4. Stay ahead of the Imperial Navy's attention (Heat). (1)
-5. Read the Aslan *ihatei* tide — threat or opportunity? (1)
-6. **(Shake) The long way home** — chase the crown, get rich and return to his brother Akhil, or lose himself out here? (2)
-7. **(Shake) The outsider** — an Imperial nobody earning a place in a kingdom not his own. (1)
-8. ~~Win Tashan's wager~~ — **WON** (proof delivered; sword-trade; his public endorsement; rivalry defused). *(resolved)*
-9. ~~Run down Ferrik~~ — **DONE** (captured, executed, bounty collected). *(resolved)*
-10. **The lost crown jewels of Sindal** — the Borite painting points at the Eagle of Sol, the Thalassan Pearl, the diamond rings of Kether (treasure seed). (1)
-11. **Darokyn's secret** — the crew alone know he's Imperial Naval Intelligence; the proof sits on his flagship. Dormant leverage (use it, sell it, or keep burying it). (1)
-12. **Phase 2 — build the New Kingdom** — raid the trade lanes, court/recruit the independent Reach worlds, grow Fighting Strength toward a restored Drinax (the long game). (2)
-13. **Honour the Clarke pact** — actually defend Clarke from raiders → deepens it to **Haven**; fail/break it → lose Clarke (and prove the death-cult's fear right). (2)
-14. **The GeDeCo rivalry** — the megacorp, beaten at Torpol & Clarke, will counter harder; it courts the same worlds for the Imperium and likely has a spy at Drinax's court. (1)
-15. **The corsair warlord** — a rival uniting raider bands into a fleet to sack **Pourne** (the rich high-tech fortress world). A danger, a rival empire-builder-by-the-sword, and the **key to winning Pourne** if the crew break the fleet. (2)
-
-### Characters List
-- **King Oleb XVI** — cunning ex-pirate patron; Shakespearean bluster over a patient plan.
-- **Princess Rao** — heir; invented the privateer scheme; her own agenda *(gated)*.
-- **Reyna Voss** — crew XO/Face; Shake's ex-Navy comrade; Drinaxi noble (court access).
-- **Doc Hadrian** — crew medic; Shake's old colleague, exiled Imperial surgeon; wry, fellow Imperial exile.
-- **The crew** — **Dak Surrow** (pilot/astrogator: quiet, precise, superstitious about the wayward jump drive, sits facing the door); **Mira Kell** (engineer: blunt, straight-talking, loyalty earned by honesty); **Brakk** (gunner/boarder: big, hot-tempered, fiercely loyal); **Sal Quist** (QM/fence: watchful, mercenary-charming, works every room and angle).
-- **Sir Coriol Tashan** — Star Guard captain, Lord Wrax's client; publicly bet his Sindalian heirloom blade vs Shake's officer's blade on the raider hunt. Sore loser of the exchange.
-- **Captain Edda Korr** — master of the free trader *Larkspur* out of Borite; rescued by the crew from the Star Ray. Grateful, friendly, a potential local contact/intel source in the Sindal backwater.
-- **Provost Martial Haddo Farx** — Torpol starport admin; ambitious, risen on the raider collar; now a **firm champion/Asset** lobbying Torpol toward Drinax.
-- **Keeper Malos** — Psychopomp death-priest & starport admin at Clarke; fair, grieving, morbidly cheery. Won over by Shake's honesty; a personal ally. Holds Drinax to "actions, not words."
-- *(Darokyn — see his full entry below; secret now revealed.)*
-- **Ferrik Redthane** *(DEAD)* — executed by the crew; delivered frozen to Torpol/Clarke for the MCr2.5 bounty. His knowledge of Darokyn's secret died with him.
-- **Miria Silverhand** *(released)* — baited Ferrik, then freed per the deal (Cr50k, quiet drop). Out of the picture; never knew the secret. (Could resurface — she knows the crew's faces.)
-- **Admiral Darokyn** *(SECRET REVEALED — crew knowledge only)* — NOT a true renegade: still an **Imperial Naval Intelligence deep-cover agent** running Theev as the Imperium's Reach spy. Wants Ferrik dead/silent to bury it. **Proof (intercept recordings) sits on a secure core aboard his flagship** → blackmail/heist thread. Gave the crew Miria's location (conditional friendship — now in jeopardy if Ferrik lives/talks).
-- **Capt. Danel Vlaw** — paranoid Asiman trader (*Sarcomond*, Torpol); hates Drinax, warmed to Shake as a fellow Imperial. Minor goodwill contact.
-- **Matron Sera Avelline** *(Paal)* — pro-Drinax old-blood matron of the Paal council; allied freely on the crew's arrival. Drinax's foothold inside Paal's oligarchy.
-- **Magnate Ivo Sarrel** *(Paal)* — leader of the council's **centrist swing-bloc** (holds the balance of the fractious oligarchy). **WON OVER by Shake's partnership pitch** (Persuade 12 vs 10) — will champion the partnership case to his bloc, favourably. A hedging centrist; gave his hand *conditionally* ("don't make me a fool for it"). Not yet an outright champion. His two fears (**Prison**/vassalage, **Waste**/being spent in a war) were answered, not erased — break the promise and he turns. **Avelline + Sarrel's bloc = a Paal council majority in waiting.**
-- **The Pirate Lords of Theev** — power players *(gated)*.
-- *(Add patrons, victims, rivals as they appear.)*
+### Threads List & Characters List → see generated `campaign/LISTS.md`
+> **JSON-backed (v2):** `threads.json` / `characters.json` are the machine source the dice roll; the live, annotated
+> view is **`campaign/LISTS.md`** (generated by `state.py render`, auto-updated on every mutation — do NOT hand-maintain
+> a second copy here). Manage via `state.py thread|char add|weight|note|remove campaign "<name>"`.
+> Current: **13 active Threads** (resolved *Win Tashan's wager* & *Run down Ferrik* dropped) · **19 Characters**
+> (Ferrik removed — dead). Theme priority Action · Social · Tension · Mystery · Personal · scene #12.
 
 ### Adventure-Features List
 - Merchant convoys & lone traders (prey) · Imperial patrols / customs / Q-ships (law/traps) · Gas-giant & wilderness refuelling · Theev (lawless pirate port) · Derelicts & salvage · Sindalian-era ruins & lost tech · Aslan war-fleets & ihatei craft · Ion storms / deep-space hazards · Rival pirate crews · A rumoured "treasure ship."
@@ -84,10 +54,11 @@
 - Drinax court: Oleb favourable; Rao's scheme on trial; Lord Wrax opposed (his client Tashan publicly bested by Shake at dinner — minor face won for the privateer scheme, fresh grudge from the Wrax faction).
 
 ## Heat & sandbox clocks
-- **Imperial Heat:** ▢▢▢▢▢ (→ 06 Game of Sun & Shadow / naval hunt)
-- **Aslan ihatei pressure:** ▢▢▢▢▢
-- **Drinax decay / succession:** ▢▢▢▢▢ (→ 09 Blood of the Star Dragon; Harrick/Rao rift foreshadowed)
-- **Rival pirates:** ▢▢▢▢▢
+> Reconciled at **scene #12** after restoring the world-tick discipline (these had silently stalled; `tick.py --bridge … --campaign campaign` now fires every bookkeeping). Values reflect established Phase-2 fiction, not new rolled events — fresh advances roll in play from here.
+- **Imperial Heat:** ▢▢▢▢▢ (0/5 — pure diplomacy in Phase 2; no big raid/atrocity/exposure → trigger never fired) (→ 06 Game of Sun & Shadow / naval hunt)
+- **Aslan ihatei pressure:** ▣▣▢▢▢ (2/5 — the tide keeps rising offscreen; every-4-scene cadence)
+- **Drinax decay / succession:** ▣▢▢▢▢ (1/5 — court strife simmers: Wrax faction, the foreshadowed Harrick/Rao rift) (→ 09 Blood of the Star Dragon)
+- **Rival pirates:** ▣▣▢▢▢ (2/5 — the corsair warlord uniting raider bands to sack Pourne IS this clock advancing)
 
 ## Adventures
 - **In play:** 01 Honour Among Thieves — **RESOLVED in the field** (Ferrik dead, bounty collected, Torpol/Clarke won). **Final step: report to King Oleb at Drinax** → fully closes the opener.
