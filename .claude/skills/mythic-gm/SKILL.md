@@ -166,7 +166,7 @@ Mythic answers questions and paces; **the RPG owns task resolution and combat.**
 | **New Character (auto-fires on any NEW result)** | `python3 scripts/oracle.py character [--campaign <dir>] [--bridge <b>]` — AC Crafter by default; bridge `generate:character` can replace/augment |
 | Answer-keyed table | `python3 scripts/oracle.py answer <table> <yes\|no\|exc_yes\|exc_no\|random_event>` |
 | **Adventure Themes (bridge `theme-weights.md` if `--bridge`, else `--style`; saved to adventure.json)** | `python3 scripts/adventure_crafter.py themes [--bridge <b>] [--style <action\|…\|balanced>] --campaign <dir>` |
-| **Turning Point** (reads theme order + tens from adventure.json) | `python3 scripts/adventure_crafter.py turning-point --campaign <dir> [--existing]` |
+| **Turning Point** (reads theme order + tens from adventure.json; char-calling Plot Points auto-invoke the Lists) | `python3 scripts/adventure_crafter.py turning-point --campaign <dir> [--bridge <b>] [--existing]` |
 | Threads/Characters Lists (JSON) | `python3 scripts/state.py thread\|char add\|weight\|remove\|show <campaign> "<name>"` |
 | Chaos / state / adventure cfg | `state.py chaos <+1\|-1> <CF>` · `state.py validate <file>` · `state.py adventure show\|set-themes <campaign>` |
 | RPG routing | `python3 scripts/system.py route` |
