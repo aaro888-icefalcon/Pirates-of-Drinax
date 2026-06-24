@@ -1,0 +1,81 @@
+{
+ "kind": "character",
+ "entries": [
+  {
+   "name": "King Oleb XVI",
+   "weight": 1
+  },
+  {
+   "name": "Princess Rao",
+   "weight": 1
+  },
+  {
+   "name": "Reyna Voss",
+   "weight": 1
+  },
+  {
+   "name": "Doc Hadrian",
+   "weight": 1
+  },
+  {
+   "name": "Dak Surrow",
+   "weight": 1
+  },
+  {
+   "name": "Mira Kell",
+   "weight": 1
+  },
+  {
+   "name": "Brakk",
+   "weight": 1
+  },
+  {
+   "name": "Sal Quist",
+   "weight": 1
+  },
+  {
+   "name": "Krrsh",
+   "weight": 1
+  },
+  {
+   "name": "Sir Coriol Tashan",
+   "weight": 1
+  },
+  {
+   "name": "Captain Edda Korr",
+   "weight": 1
+  },
+  {
+   "name": "Provost Martial Haddo Farx",
+   "weight": 1
+  },
+  {
+   "name": "Keeper Malos",
+   "weight": 1
+  },
+  {
+   "name": "Admiral Darokyn",
+   "weight": 1
+  },
+  {
+   "name": "Miria Silverhand",
+   "weight": 1
+  },
+  {
+   "name": "Capt. Danel Vlaw",
+   "weight": 1
+  },
+  {
+   "name": "Matron Sera Avelline",
+   "weight": 1
+  },
+  {
+   "name": "Magnate Ivo Sarrel",
+   "weight": 1
+  },
+  {
+   "name": "The Pirate Lords of Theev",
+   "weight": 1
+  }
+ ]
+}

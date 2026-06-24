@@ -22,9 +22,17 @@ loop, and holds the no-softening discipline; this bridge only fills the engine's
     "seeds": "seeds.md",
     "canon": "setting-canon.md",
     "adventures": "adventures/pirates-of-drinax.md"
+  },
+  "generators_map": {
+    "character": { "mode": "conjunction", "table": "generators/npc_role.json",
+                   "note": "after the AC Character Crafter, roll npc_role.json and flesh the NPC from setting-canon factions/wants + the interpretation.md lens" }
   }
 }
 ```
+
+> **NEW-character generation:** `generate:character` is wired to the AC Character Crafter **in conjunction with**
+> `generators/npc_role.json` (per `generators/registry.md`) — the engine fires both on any NEW Character result when
+> the roller is passed `--bridge`. Other `generate:*` needs route through `generators/registry.md`.
 
 ## Hooks NOT overridden (engine defaults apply)
 - None of the engine's core machinery is touched — scenes, the Scene Test, Chaos math, Fate Questions, Random Events,
