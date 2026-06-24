@@ -6,8 +6,9 @@ Points Table are hard-coded. Threads/Characters are read from the campaign's JSO
 Lists (lists.py) so rolls cover the FULL list, however long.
 
 Commands:
-  themes [--style action|horror|mystery|intrigue|drama|balanced] [--campaign DIR]
-        Roll the adventure's 5 Theme priorities (1st..5th), weighted by RPG style.
+  themes [--style action|horror|mystery|intrigue|drama|balanced] [--campaign DIR] [--bridge DIR]
+        Roll the adventure's 5 Theme priorities (1st..5th). With --bridge, weights come from the
+        companion's theme-weights.md (+ optional first_priority); else from the built-in RPG style.
         With --campaign, save them to adventure.json (theme_order).
   theme [--style ...]                Roll a single Theme (style-weighted)
   turning-point [--campaign DIR] [--existing] [--themes A,B,..] [--tens T] [--threads N]
@@ -17,7 +18,7 @@ Commands:
         With --campaign, theme order + the Tens-cycle counter are read from / written to
         adventure.json (no need to pass --themes/--tens by hand).
 """
-import json, os, random, sys
+import json, os, random, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lists
 
@@ -33,28 +34,64 @@ THEMES_DEF = load("adventure_crafter/themes.json")
 STRUCT = load("adventure_crafter/plot_point_structure.json")["universal"]
 META_TBL = load("adventure_crafter/meta_plot_points.json")
 
-def weighted_theme_order(style):
-    w = dict(THEMES_DEF["style_weights"].get(style, THEMES_DEF["style_weights"]["balanced"]))
+def weighted_order(weights):
+    """Draw a priority order by weight (higher weight → likelier earlier). Zero-weight themes still
+    appear, at the end, so all themes are always present in the 5-priority order."""
     order = []
-    pool = list(w.items())
+    pool = [(t, wt) for t, wt in weights.items() if wt > 0]
+    zeros = [t for t, wt in weights.items() if wt <= 0]
     while pool:
         total = sum(x[1] for x in pool); r = random.uniform(0, total); acc = 0
         for i, (t, wt) in enumerate(pool):
             acc += wt
             if r <= acc:
                 order.append(t); pool.pop(i); break
+    order.extend(zeros)
     return order
 
-def cmd_themes(style, campaign=None):
-    order = weighted_theme_order(style)
-    print(f"🎭 ADVENTURE THEMES (style: {style}) — priority order:")
+def weighted_theme_order(style):
+    return weighted_order(dict(THEMES_DEF["style_weights"].get(style, THEMES_DEF["style_weights"]["balanced"])))
+
+def parse_bridge_theme_weights(bridge_dir):
+    """Read a companion bridge's theme-weights.md → ({theme: weight}, first_priority|None), or
+    (None, None) if absent. Ignores # comments and > blockquotes (e.g. the Operative digest)."""
+    if not bridge_dir: return None, None
+    p = os.path.join(bridge_dir, "theme-weights.md")
+    if not os.path.exists(p): return None, None
+    names = {n.lower(): n for n in THEMES_DEF["themes"]}
+    weights = {}; first = None
+    for ln in open(p, encoding="utf-8"):
+        s = ln.strip()
+        if not s or s.startswith("#") or s.startswith(">"): continue
+        m = re.match(r"([A-Za-z]+)\s*:\s*(\d+)\s*$", s)
+        if m and m.group(1).lower() in names:
+            weights[names[m.group(1).lower()]] = int(m.group(2)); continue
+        fm = re.match(r"first_priority\s*:\s*([A-Za-z]+)", s)
+        if fm and fm.group(1).lower() != "none" and fm.group(1).lower() in names:
+            first = names[fm.group(1).lower()]
+    if not weights: return None, None
+    for n in THEMES_DEF["themes"]: weights.setdefault(n, 1)   # ensure all 5 themes appear
+    return weights, first
+
+def cmd_themes(style, campaign=None, bridge_dir=None):
+    bw, first = parse_bridge_theme_weights(bridge_dir)
+    if bw:
+        order = weighted_order(bw)
+        if first and first in order:
+            order.remove(first); order.insert(0, first)
+        src = "bridge:theme-weights.md (" + ", ".join(f"{t} {bw[t]}" for t in THEMES_DEF["themes"]) \
+              + (f"; first_priority={first}" if first else "") + ")"
+        used_style = "bridge"
+    else:
+        order = weighted_theme_order(style); src = f"style:{style}"; used_style = style
+    print(f"🎭 ADVENTURE THEMES ({src}) — priority order:")
     for i, t in enumerate(order, 1):
         print(f"   {i}. {t}")
     if campaign:
-        adv = lists.load_adventure(campaign); adv["theme_order"] = order; adv["style"] = style
+        adv = lists.load_adventure(campaign); adv["theme_order"] = order; adv["style"] = used_style
         lists.save_adventure(campaign, adv)
         print(f"   ✔ saved to {os.path.join(campaign,'adventure.json')} (theme_order).")
-    print("   [src ac.themes; style-weighted]   These are this adventure's Theme priorities.")
+    print("   [src ac.themes; bridge-weighted if a companion theme-weights.md is present, else style-weighted]")
 
 def cmd_theme(style):
     order = weighted_theme_order(style); print(f"🎭 Theme (style {style}): {order[0]}")
@@ -132,7 +169,8 @@ def main():
     def opt(f, dv): return type(dv)(a[a.index(f)+1]) if f in a else dv
     style = opt("--style", "balanced")
     campaign = opt("--campaign", "") or None
-    if a[0] == "themes": cmd_themes(style, campaign)
+    bridge = opt("--bridge", "") or None
+    if a[0] == "themes": cmd_themes(style, campaign, bridge)
     elif a[0] == "theme": cmd_theme(style)
     elif a[0] == "turning-point":
         if "--themes" in a:
@@ -140,7 +178,12 @@ def main():
         elif campaign:
             order = lists.load_adventure(campaign)["theme_order"]
         else:
-            order = THEMES_DEF["themes"]
+            bw, first = parse_bridge_theme_weights(bridge)
+            if bw:
+                order = weighted_order(bw)
+                if first and first in order: order.remove(first); order.insert(0, first)
+            else:
+                order = THEMES_DEF["themes"]
         tens = opt("--tens", -1)
         if tens < 0:
             tens = lists.load_adventure(campaign)["tens"] if campaign else 0

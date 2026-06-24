@@ -44,7 +44,7 @@ This skill is **self-contained**: the complete Mythic + Adventure Crafter rules 
    - **Adventure Source mode** — **Pure Mythic / Adventure Crafter / Prepared Adventure** (governs the Scene Test branch; see Loop step 2).
    - **Resolution** — Fate **Chart** (default) or Fate **Check**; optional Chaos flavor.
    - **Overlays** (optional) — Keyed Scenes, a Thread Progress Track.
-3. **Chaos Factor = 5.** Run `python3 scripts/state.py init <campaign>` — scaffolds `campaign-state.md` + empty `threads.json` / `characters.json` / `adventure.json` (+ **Adventure Features** if a prepared adventure). Set the Theme order: `adventure_crafter.py themes --style <…> --campaign <dir>`.
+3. **Chaos Factor = 5.** Run `python3 scripts/state.py init <campaign>` — scaffolds `campaign-state.md` + empty `threads.json` / `characters.json` / `adventure.json` (+ **Adventure Features** if a prepared adventure). Set the Theme order: `adventure_crafter.py themes --campaign <dir> --bridge <bridge>` (companion weights; or `--style <…>` standalone).
 4. **Create the PC** via the RPG (`adapt-character-creation.md` → `character-sheet.md`).
 5. **First Scene (NOT tested):** Pure Mythic → Inspired Idea / Random Event / Meaning words / 4W · Crafter → 1-3 Turning Points · Prepared → the module's start. **Seed the Lists.** Describe it, then **"What do you do?"** and STOP.
 
@@ -99,7 +99,7 @@ Run this every scene. (Full verified detail: `references/playloop.md`.)
      • SEED DECK: refresh <campaign>/seeds.md to 30–40 from canon + live world + random generator rolls
        (main AI inline; optionally offload to the mythic-scout agent — references/scout.md).
      • NEW-ADVENTURE CHECK: if `threads.json` is empty (all concluded) → adventure over; roll new
-       Themes (`adventure_crafter.py themes --campaign <dir>` rewrites adventure.json), clear the
+       Themes (`adventure_crafter.py themes --campaign <dir> --bridge <bridge>` rewrites adventure.json), clear the
        Threads List, carry over only still-relevant Characters (remove the rest via `state.py char remove`).
      • Run the SELF-AUDIT (below). Overwrite campaign-state.md.
 6. → back to 1.
@@ -165,7 +165,7 @@ Mythic answers questions and paces; **the RPG owns task resolution and combat.**
 | **List invoke (two-stage: NEW/PRE-EXISTING/CHOOSE)** | `python3 scripts/oracle.py thread-list\|character-list --campaign <dir> [--bridge <b>]` |
 | **New Character (auto-fires on any NEW result)** | `python3 scripts/oracle.py character [--campaign <dir>] [--bridge <b>]` — AC Crafter by default; bridge `generate:character` can replace/augment |
 | Answer-keyed table | `python3 scripts/oracle.py answer <table> <yes\|no\|exc_yes\|exc_no\|random_event>` |
-| **Adventure Themes (style-weighted, saved to adventure.json)** | `python3 scripts/adventure_crafter.py themes --style <action\|horror\|mystery\|intrigue\|drama\|balanced> --campaign <dir>` |
+| **Adventure Themes (bridge `theme-weights.md` if `--bridge`, else `--style`; saved to adventure.json)** | `python3 scripts/adventure_crafter.py themes [--bridge <b>] [--style <action\|…\|balanced>] --campaign <dir>` |
 | **Turning Point** (reads theme order + tens from adventure.json) | `python3 scripts/adventure_crafter.py turning-point --campaign <dir> [--existing]` |
 | Threads/Characters Lists (JSON) | `python3 scripts/state.py thread\|char add\|weight\|remove\|show <campaign> "<name>"` |
 | Chaos / state / adventure cfg | `state.py chaos <+1\|-1> <CF>` · `state.py validate <file>` · `state.py adventure show\|set-themes <campaign>` |
