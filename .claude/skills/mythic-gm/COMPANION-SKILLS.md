@@ -42,6 +42,11 @@ Copy `mythic-gm/assets/bridge-templates/*` as your starting point. Validate with
 
 ## 3. File specs (the essentials)
 
+> **Operative digest (every hook file):** put a `> **Operative digest:** …` blockquote (2–4 imperative lines — the
+> WHEN and the rule, not just the mechanism) near the top of each overridden hook's file. `bridge.py brief <dir>` prints
+> these at boot so the discipline is LOADED into context, not merely pointed at; `bridge.py validate` warns when an
+> overridden hook lacks one. This is what stops a correct-but-unread rule from silently never firing in play.
+
 - **bridge.md** — prose + one fenced ```json block: `{ "companion": "...", "engine": "mythic-gm>=2", "overrides": [...hooks...], "files": {...} }`. `bridge.py` reads this.
 - **system-profile.md** — dice convention + how to express a roll for `dice.py roll`; core resolution (vs-DC / opposed / PbtA / pool); degrees of success?; stats/skills; combat; death; **NPC-stat units**; routing default (what the RPG resolves vs Fate Questions).
 - **interpretation.md** — *not a reskin table.* Broad GM-craft: how literally/dramatically to read the oracle here; **how this world's NPCs/factions think, want, and act** (so NPC interpretations are setting-true and competent); genre pacing/stakes. Read on every interpretation/NPC moment.

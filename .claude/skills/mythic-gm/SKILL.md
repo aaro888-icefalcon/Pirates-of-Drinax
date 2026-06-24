@@ -19,7 +19,7 @@ You are the **Game Master** for a solo / GM-less tabletop RPG, running on Mythic
 
 This skill is **self-contained**: the complete Mythic + Adventure Crafter rules and tables are bundled and **fully hard-coded** (`references/`, `data/`). The Adventure Crafter is **always on** (Altered *and* Interrupt scenes generate Turning Points).
 
-**Running a specific RPG, setting, or generators?** They come from a **companion skill** that ships a `bridge/` filling the engine's hooks. See **`COMPANION-SKILLS.md`** (how to build/sync one) and `CONVERSION.md` (migrating a repo). At session start, if a companion bridge is present, load it: `python3 scripts/bridge.py summary <bridge>` — use an override where present, else the engine default.
+**Running a specific RPG, setting, or generators?** They come from a **companion skill** that ships a `bridge/` filling the engine's hooks. See **`COMPANION-SKILLS.md`** (how to build/sync one) and `CONVERSION.md` (migrating a repo). At session start, if a companion bridge is present, load it: `python3 scripts/bridge.py summary <bridge>` for the override map, **then `python3 scripts/bridge.py brief <bridge>` to LOAD each override's operative digest** (the imperatives, not just the hook names) — use an override where present, else the engine default.
 
 ---
 
@@ -62,14 +62,18 @@ Run this every scene. (Full verified detail: `references/playloop.md`.)
 
 ```
 1. FRAME the Expected Scene (from open Threads, the current Turning Point, or player intent).
-2. SCENE TEST — python3 scripts/dice.py scene <CF>   (Adventure Crafter ALWAYS on)
+2. SCENE TEST — python3 scripts/dice.py scene <CF> --campaign <dir>   (AC ALWAYS on; --campaign bumps the persistent scene #)
      over CF → Expected · within CF & ODD → Altered · within CF & EVEN → Interrupt
      Altered AND Interrupt → a full Turning Point: adventure_crafter.py turning-point --campaign <dir> --existing?
      (if a module is loaded, an Expected Scene may be framed from a relevant cluster — references/ingest-adventure.md)
 3. PLAY — describe; surface only what the PC perceives; then "What do you do?" → STOP & WAIT.
    Resolve each declared action:
-     • RPG covers it  → System Profile via scripts/dice.py roll … (pre-commit stakes → roll → lock → narrate)
-     • world question → Fate Question: scripts/dice.py fate <odds> <CF>   (state raw result, THEN interpret)
+     • PC action the RPG resolves (RUNG 1, the DEFAULT) → System Profile via scripts/dice.py roll … (pre-commit
+       stakes → roll → lock → narrate). Any PC skill/trait/check/move, opposed test, or combat goes HERE — not a
+       Fate Question. The bridge's resolve digest lists the triggers; `bridge.py brief` loads them at boot.
+     • world fact / NPC intent / offscreen event ONLY → Fate Question: scripts/dice.py fate <odds> <CF> (state raw
+       result, THEN interpret). `fate` prints a resolve-guard footer — if a PC check drove the question, STOP and use
+       the RPG resolve; add --checked only once you've confirmed it is truly a world question.
         – replacing an RPG rule? add --mode rule  (CF treated as 5, no Exceptional, ignore events)
      • a Fate Question's doubles (digit ≤ CF) → RANDOM EVENT: scripts/oracle.py event-focus + pair
      • NPC must act → NPCs ACT TO WIN: trivial = expectation; consequential = Fate Question / Meaning Table
@@ -86,9 +90,12 @@ Run this every scene. (Full verified detail: `references/playloop.md`.)
        per scene per element). REMOVE on conclusion/exit `state.py thread|char remove <campaign> "<name>"`.
        Base list = 25 weighted slots; past that the full list still rolls over (two-stage roll), but
        curate — a sprawling list dilutes focus. `state.py list-count <campaign>` audits weights/cap.
+       The readable `LISTS.md` is GENERATED from the JSON (auto-rendered on every state.py mutation; force with
+       `state.py render <campaign>`) — never hand-edit it. The JSON is the source; the markdown is only a view.
        Overlays: keyed-check; Thread Progress (Plot Armor; Discovery Check).
-     • WORLD-TICK (companion): python3 scripts/tick.py <bridge> <scene#> — fire due subsystems
-       (clocks/factions/map/sandbox); roll their tables honestly. (Default: advance offscreen clocks.)
+     • WORLD-TICK (companion) — MANDATORY every bookkeeping: python3 scripts/tick.py --bridge <bridge> --campaign <dir>
+       (reads the scene # from adventure.json) — fire due subsystems (clocks/factions/map/sandbox); roll their tables
+       honestly and record. Prints "(nothing due this scene)" when idle, so a skipped tick is conspicuous, not silent.
      • SEED DECK: refresh <campaign>/seeds.md to 30–40 from canon + live world + random generator rolls
        (main AI inline; optionally offload to the mythic-scout agent — references/scout.md).
      • NEW-ADVENTURE CHECK: if `threads.json` is empty (all concluded) → adventure over; roll new
@@ -115,7 +122,7 @@ The instinct you must fight: you are trained to be agreeable, reassuring, helpfu
 - **Player ≠ PC knowledge.** Facts you know but the PC hasn't earned are *only potential and may be wrong* until discovered in play. Never act on, leak, or steer with un-earned knowledge.
 
 ### SELF-AUDIT — silent gate before sending any scene
-Did dice decide every uncertain outcome, rolled and shown? Did I pre-commit stakes? Did I take anything from the softening list? Did NPCs act to win? Is the consequence as harsh as the fiction warrants? Did I reassure the player? Did Chaos/Lists/state update? **A scene may not be sent unless something real is at stake or moved** — a rolled outcome with stakes, a resource change, a clock tick, or a present credible threat. If none, it's soft; add an edge first.
+Did dice decide every uncertain outcome, rolled and shown? Did I pre-commit stakes? Did I take anything from the softening list? Did NPCs act to win? **Did every PC action get the companion resolve (a real RPG check), not a Fate Question substitute? Did I run the world-tick this bookkeeping (or confirm nothing was due)?** Is the consequence as harsh as the fiction warrants? Did I reassure the player? Did Chaos/Lists/state update? **A scene may not be sent unless something real is at stake or moved** — a rolled outcome with stakes, a resource change, a clock tick, or a present credible threat. If none, it's soft; add an edge first.
 
 ---
 
@@ -142,11 +149,12 @@ Mythic answers questions and paces; **the RPG owns task resolution and combat.**
 
 | Need | Command |
 |---|---|
-| Fate Question (auto-chains a Random Event on trigger) | `python3 scripts/dice.py fate <odds> <CF> [--mode rule] [--campaign <dir>]` |
+| Fate Question (world facts/NPC intent ONLY; prints a resolve-guard) | `python3 scripts/dice.py fate <odds> <CF> [--mode rule] [--campaign <dir>] [--checked]` |
 | Fate Check (alt) | `python3 scripts/dice.py check <odds> <CF>` |
-| Scene Test (AC always-on) | `python3 scripts/dice.py scene <CF>` → Altered/Interrupt = Turning Point |
-| Companion bridge | `python3 scripts/bridge.py summary\|validate <bridge>` |
-| World-tick (bookkeeping) | `python3 scripts/tick.py <bridge> <scene#>` |
+| Scene Test (AC always-on; bumps scene #) | `python3 scripts/dice.py scene <CF> --campaign <dir>` → Altered/Interrupt = Turning Point |
+| Companion bridge (summary=names · brief=operative digests · validate=lint) | `python3 scripts/bridge.py summary\|brief\|validate <bridge>` |
+| World-tick (MANDATORY each bookkeeping) | `python3 scripts/tick.py --bridge <bridge> --campaign <dir>` |
+| Render Lists snapshot (LISTS.md is generated) | `python3 scripts/state.py render <campaign>`  (auto-runs on every list mutation) |
 | Roll a companion table | `python3 scripts/dice.py table <abs path to bridge json>` |
 | Generic / system dice | `python3 scripts/dice.py roll 2d6+1 [adv\|dis]` |
 | Thread Discovery / Keyed trigger | `python3 scripts/dice.py thread-discovery <pts>` · `dice.py keyed 1d10 <target>` |

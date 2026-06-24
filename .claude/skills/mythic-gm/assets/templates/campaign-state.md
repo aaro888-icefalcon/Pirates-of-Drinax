@@ -14,8 +14,8 @@
 ## CURRENT ADVENTURE: <title>
 _Each adventure has its **own** Threads & Characters Lists and Theme priority. The Lists + Theme order +
 tens-counter are the machine source of truth in **`threads.json` / `characters.json` / `adventure.json`**
-(the dice roll those, any length); the sections below are a human-readable **snapshot** — keep them
-roughly in sync but edit the JSON via `state.py`._
+(the dice roll those, any length). The human-readable snapshot is GENERATED into **`LISTS.md`** by
+`state.py render` (auto-runs on every list mutation) — read it, never hand-edit it; don't keep a second copy here._
 _A **new adventure** begins when the current one's main Thread(s) Conclude (`threads.json` empties) or the
 player declares one — then roll new Themes (`adventure_crafter.py themes --campaign <dir>`), clear the
 Threads List, carry over only still-relevant Characters, archive the rest._
@@ -26,19 +26,15 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 ## Chaos Factor: 5
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
-## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
-_Manage with `state.py thread add|weight|remove|show <campaign> "<name>"`. **Weight (max 3)** = re-adding
-when Invoked/featured → that Thread is weight× as likely. Base list = 25 weighted slots; a longer list
-still fully rolls over (two-stage roll: NEW / PRE-EXISTING / CHOOSE MOST LOGICAL). Remove all of a
-concluded Thread. Curate — prune the irrelevant._
-1.
-2.
+## Threads List — GENERATED to `LISTS.md`; source = `threads.json` (the dice roll the JSON, not this)
+_Manage with `state.py thread add|weight|note|remove|show <campaign> "<name>"`. **Weight (max 3)** = re-adding
+when Invoked/featured → that Thread is weight× as likely. Base list = 25 weighted slots; a longer list still
+fully rolls over (two-stage roll: NEW / PRE-EXISTING / CHOOSE MOST LOGICAL). Remove all of a concluded Thread.
+The live list is regenerated into `LISTS.md` on every mutation — do not transcribe it here._
 
-## Characters List (NPCs/forces; PC is NOT listed) — snapshot of `characters.json`
-_Same: `state.py char add|weight|remove|show <campaign> "<name>"`; weight = re-add (max 3); the dice roll
-the JSON. Add/weight when an NPC is introduced or featured; remove when it permanently exits._
-1.
-2.
+## Characters List (NPCs/forces; PC is NOT listed) — GENERATED to `LISTS.md`; source = `characters.json`
+_Same: `state.py char add|weight|note|remove|show <campaign> "<name>"`; weight = re-add (max 3); the dice roll the
+JSON; add/weight when an NPC is introduced or featured, remove when it permanently exits. Live list lives in `LISTS.md`._
 
 ## Tens-cycle counter (Theme-die 10s rolled so far): in `adventure.json` _(auto-updated by turning-point)_
 

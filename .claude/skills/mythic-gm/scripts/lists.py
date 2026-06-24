@@ -58,6 +58,7 @@ def load_adventure(campaign):
         obj = {}
     obj.setdefault("theme_order", ["Action", "Tension", "Mystery", "Social", "Personal"])
     obj.setdefault("tens", 0)
+    obj.setdefault("scene", 0)
     obj.setdefault("style", "balanced")
     return obj
 

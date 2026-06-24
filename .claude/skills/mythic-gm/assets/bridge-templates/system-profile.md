@@ -1,4 +1,7 @@
 # System Profile — <RPG>   (hook: resolve)
+> **Operative digest:** <THE RPG resolves ALL PC checks — list the trigger skills/moves/contests/combat; how to
+> express the roll for `dice.py roll`; pre-commit → roll → read Effect. The oracle is ONLY for world facts / NPC
+> intent, NEVER the PC's own checks. brief loads this at boot; the per-scene self-audit re-asserts it.>
 - Dice convention: <e.g. d20+mod / 2d6+stat / Xd6 pool>
 - Express a roll as: <dice.py roll string, e.g. 1d20+5>
 - Core resolution: <vs-DC / opposed / PbtA 6-,7-9,10+ / count ≥ N>

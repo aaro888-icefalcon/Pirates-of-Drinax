@@ -4,9 +4,10 @@ dice.py — the honest RNG core for Mythic-GM. Every random resolution goes
 through here; results are printed transparently (roll shown) and cite the table.
 
 Commands:
-  fate <odds> <cf> [--mode rule]      Fate Question on the Fate Chart (1d100)
+  fate <odds> <cf> [--mode rule] [--campaign <d>] [--checked]   Fate Question (1d100)
+                                      (prints a resolve-guard footer unless --checked)
   check <odds> <cf>                   Fate Check alternative (2d10 + modifiers)
-  scene <cf> [--mode pure|crafter|prepared]   Test the Expected Scene (1d10)
+  scene <cf> [--campaign <dir>]       Test the Expected Scene (1d10); --campaign bumps scene #
   thread-discovery <points>           Thread Discovery Check (1d10 + Progress Points)
   keyed <expr> [target]               Roll a Keyed-Scene trigger, e.g. 'keyed 1d10 3' (fires on <=3)
   roll <NdM[+/-K]> [adv|dis]          Generic dice (system resolution); adv/dis rolls twice
@@ -14,6 +15,8 @@ Odds: Certain, "Nearly Certain", "Very Likely", Likely, 50/50, Unlikely,
       "Very Unlikely", "Nearly Impossible", Impossible
 """
 import json, os, random, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import lists
 
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 def load(name): return json.load(open(os.path.join(DATA, name), encoding="utf-8"))
@@ -36,7 +39,7 @@ def event_check(roll, cf):
     digit = ones if ones != 0 else 10
     return (is_double and digit <= cf), digit
 
-def cmd_fate(odds, cf, mode=None, threads=0, characters=0, campaign=None, bridge_dir=None):
+def cmd_fate(odds, cf, mode=None, threads=0, characters=0, campaign=None, bridge_dir=None, checked=False):
     rule = (mode == "rule")
     chart = load("mythic/fate_chart.json")
     eff_cf = 5 if rule else cf
@@ -54,6 +57,10 @@ def cmd_fate(odds, cf, mode=None, threads=0, characters=0, campaign=None, bridge
     print(f"   1d100 = {r}   (Yes if ≤{cell['yes_max']}; ExcYes ≤{cell['exc_yes_max']}; ExcNo ≥{cell['exc_no_min']})")
     print(f"   ANSWER: {ans}")
     print(f"   [src mythic.fate_chart]")
+    if not (rule or checked):
+        print("   ⚠ resolve-guard: if a PC action the RPG resolves (a skill/trait/check/move) drove this")
+        print("                    question, prefer the companion resolve (system-profile, rung 1) over the")
+        print("                    oracle. Oracle = world facts/NPC intent, not the PC's own checks. [--checked]")
     if ev:
         print(f"   ⚡ RANDOM EVENT (doubles, digit {digit} ≤ CF {eff_cf}) — the answer above still stands:")
         # hard-coded chain: run the full Random Event right here
@@ -78,8 +85,10 @@ def cmd_check(odds, cf):
     if ev: print(f"   ⚡ RANDOM EVENT (doubles {a}, ≤ CF {cf})")
     print("   [src mythic.fate_check]")
 
-def cmd_scene(cf):
-    """Adventure Crafter is always on: both Altered and Interrupt generate a full Turning Point."""
+def cmd_scene(cf, campaign=None):
+    """Adventure Crafter is always on: both Altered and Interrupt generate a full Turning Point.
+    With --campaign, increments and stamps the persistent scene counter (adventure.json) so
+    world-tick cadences have a scene number to read."""
     r = d(10)
     if r > cf:
         out = "EXPECTED SCENE (runs as framed)"; tp = False
@@ -87,7 +96,11 @@ def cmd_scene(cf):
         out = "ALTERED SCENE → Turning Point (use the Expected Scene as its basis)"; tp = True
     else:             # even
         out = "INTERRUPT SCENE → Turning Point (an entirely new, unexpected scene)"; tp = True
-    print(f"🎬 SCENE TEST  [Chaos {cf}]")
+    scene_no = None
+    if campaign:
+        adv = lists.load_adventure(campaign); adv["scene"] = int(adv.get("scene", 0)) + 1
+        lists.save_adventure(campaign, adv); scene_no = adv["scene"]
+    print(f"🎬 SCENE TEST  [Chaos {cf}]" + (f"  ·  scene #{scene_no}" if scene_no else ""))
     print(f"   1d10 = {r}   ({'over CF' if r>cf else 'within CF, '+('odd' if r%2 else 'even')})")
     print(f"   RESULT: {out}")
     if tp:
@@ -145,11 +158,13 @@ def main():
     mode = opt("--mode")
     th = int(opt("--threads") or 0); ch = int(opt("--characters") or 0)
     camp = opt("--campaign"); brg = opt("--bridge")
-    pos = [x for i,x in enumerate(a[1:],1) if not (x.startswith("--") or (a[i-1].startswith("--")))]
+    checked = "--checked" in a
+    a2 = [x for x in a if x != "--checked"]   # valueless flag — drop so it can't swallow a positional
+    pos = [x for i,x in enumerate(a2[1:],1) if not (x.startswith("--") or (a2[i-1].startswith("--")))]
     try:
-        if cmd == "fate": cmd_fate(pos[0], int(pos[1]), mode, th, ch, camp, brg)
+        if cmd == "fate": cmd_fate(pos[0], int(pos[1]), mode, th, ch, camp, brg, checked)
         elif cmd == "check": cmd_check(pos[0], int(pos[1]))
-        elif cmd == "scene": cmd_scene(int(pos[0]))
+        elif cmd == "scene": cmd_scene(int(pos[0]), camp)
         elif cmd == "table": cmd_table(pos[0])
         elif cmd == "thread-discovery": cmd_thread_discovery(int(pos[0]))
         elif cmd == "keyed": cmd_keyed(pos[0], pos[1] if len(pos)>1 else None)
